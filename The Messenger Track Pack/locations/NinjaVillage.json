@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Ninja Village",
+    "access_rules": ["wingsuit"],
+    "item_count": 1,
+    "sections": [
+      {
+        "name": "Astral Seed",
+        "chest_unopened_img": "images/items/Icon_AstralTeaSeed.png",
+        "chest_opened_img": "images/items/Icon_AstralTeaSeedBW.png"
+      },
+      {
+        "name": "Candle",
+        "chest_unopened_img": "images/items/Icon_Candle.png",
+        "chest_opened_img": "images/items/Icon_CandleBW.png"
+      },
+      {
+        "name": "Ninja Village Seal - Tree House",
+        "access_rules": ["grapplou"],
+        "visibility_rules": ["shuffled_power_seals"],
+        "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
+        "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 70,
+        "y": 160
+      }
+    ]
+  },
+  // Ninja Village Map items
+  {
+    "access_rules": ["wingsuit"],
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Astral Seed",
+            "chest_unopened_img": "images/items/Icon_AstralTeaSeed.png",
+            "chest_opened_img": "images/items/Icon_AstralTeaSeedBW.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ninja_village_map",
+            "x": 519,
+            "y": 85
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Candle",
+            "chest_unopened_img": "images/items/Icon_Candle.png",
+            "chest_opened_img": "images/items/Icon_CandleBW.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ninja_village_map",
+            "x": 518,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "access_rules": ["grapplou"],
+    "visibility_rules": ["shuffled_power_seals"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
+    "item_count": 1,
+    "sections": [
+      {
+        "ref": "Ninja Village/Ninja Village Seal - Tree House",
+        "name": "Tree House"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "ninja_village_map",
+        "x": 165,
+        "y": 155
+      }
+    ]
+  }
+]

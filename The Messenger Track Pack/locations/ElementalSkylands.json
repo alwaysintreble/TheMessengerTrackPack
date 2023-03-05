@@ -1,0 +1,119 @@
+﻿[
+  {
+    "name": "Elemental Skylands",
+    "access_rules": ["fairy_bottle, $vertical"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 475,
+        "y": 50
+      }
+    ],
+    "sections": [
+      {
+        "name": "Key of Symbiosis",
+        "chest_unopened_img": "images/items/Note_Symbiosis.png",
+        "chest_opened_img": "images/items/Note_SymbiosisBW.png"
+      },
+      {
+        "name": "Elemental Skylands Seal - Air",
+        "access_rules": ["wingsuit"],
+        "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Elemental Skylands Seal - Water",
+        "access_rules": ["grapplou"],
+        "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Elemental Skylands Seal - Fire",
+        "access_rules": ["grapplou"],
+        "visibility_rules": ["shuffled_power_seals"]
+      }
+    ]
+  },
+  {
+    "access_rules": ["fairy_bottle, $vertical"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Elemental Skylands/Key of Symbiosis",
+            "name": "Key of Symbiosis"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "elemental_skylands_map",
+            "x": 1521,
+            "y": 143,
+            "size": 64
+          }
+        ]
+      },
+      {
+        "visibility_rules": ["shuffled_power_seals"],
+        "children": [
+          {
+            "access_rules": ["wingsuit"],
+            "sections": [
+              {
+                "ref": "Elemental Skylands/Elemental Skylands Seal - Air",
+                "name": "Air"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "elemental_skylands_map",
+                "x": 130,
+                "y": 38
+              }
+            ]
+          },
+          {
+            "name": "Elemental Skylands Seal",
+            "access_rules": ["grapplou"],
+            "children": [
+              {
+                "sections": [
+                  {
+                    "ref": "Elemental Skylands/Elemental Skylands Seal - Water",
+                    "name": "Water"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "elemental_skylands_map",
+                    "x": 902,
+                    "y": 165
+                  }
+                ]
+              },
+              {
+                "sections": [
+                  {
+                    "ref": "Elemental Skylands/Elemental Skylands Seal - Fire",
+                    "name": "Fire"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "elemental_skylands_map",
+                    "x": 1342,
+                    "y": 165
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

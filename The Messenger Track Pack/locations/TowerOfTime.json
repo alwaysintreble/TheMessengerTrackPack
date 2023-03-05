@@ -1,0 +1,82 @@
+[
+  {
+    "visibility_rules": ["shuffled_power_seals"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Tower of Time",
+        "sections": [
+          {
+            "name": "Tower of Time Seal - Time Waster Seal",
+            "access_rules": ["grapplou"]
+          },
+          {
+            "name": "Tower of Time Seal - Lantern Climb",
+            "access_rules": ["wingsuit"]
+          },
+          {
+            "name": "Tower of Time Seal - Arcane Orbs",
+            "access_rules": ["wingsuit, grapplou"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "messenger_map",
+            "x": 292,
+            "y": 57
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Tower of Time/Tower of Time Seal - Time Waster Seal",
+            "name": "Time Waster Seal",
+            "access_rules": ["grapplou"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_map",
+            "x": 193,
+            "y": 1124
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Tower of Time/Tower of Time Seal - Lantern Climb",
+            "name": "Lantern Climb",
+            "access_rules": ["wingsuit"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_map",
+            "x": 591,
+            "y": 721
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Tower of Time/Tower of Time Seal - Arcane Orbs",
+            "name": "Arcane Orbs",
+            "access_rules": ["wingsuit, grapplou"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_map",
+            "x": 272,
+            "y": 644
+          }
+        ]
+      }
+    ]
+  }
+]
