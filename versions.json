@@ -2,7 +2,7 @@
   "versions": [
     {
       "package_version": "1.0.0",
-      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/tag/1.0",
       "sha256": "790289E840AE9D869CA6487BB01008913BF4EEF864F67C4D119D915084C8E6A3",
       "changelog": [
         "Initial version"
