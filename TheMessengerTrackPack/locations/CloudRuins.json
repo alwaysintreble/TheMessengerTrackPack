@@ -1,0 +1,127 @@
+﻿[
+  {
+    "name": "Cloud Ruins",
+    "access_rules": ["wingsuit, ruxxtin_amulet"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
+    "item_count": 1,
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 630,
+        "y": 45
+      }
+    ],
+    "sections": [
+      {
+        "name": "Acro",
+        "chest_unopened_img": "images/items/Icon_PhobekinAcro.png",
+        "chest_opened_img": "images/items/Icon_PhobekinAcroBW.png"
+      },
+      {
+        "name": "Cloud Ruins Seal - Ghost Pit",
+        "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Cloud Ruins Seal - Toothbrush Alley",
+        "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Cloud Ruins Seal - Saw Pit",
+        "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Cloud Ruins Seal - Money Farm Room",
+        "visibility_rules": ["shuffled_power_seals"]
+      }
+    ]
+  },
+  {
+    "access_rules": ["wingsuit, ruxxtin_amulet"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Cloud Ruins/Acro",
+            "name": "Acro"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cloud_ruins_map",
+            "x": 845,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "visibility_rules": ["shuffled_power_seals"],
+        "children": [
+          {
+            "sections": [
+              {
+                "ref": "Cloud Ruins/Cloud Ruins Seal - Ghost Pit",
+                "name": "Ghost Pit"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cloud_ruins_map",
+                "x": 230,
+                "y": 60
+              }
+            ]
+          },
+          {
+            "sections": [
+              {
+                "ref": "Cloud Ruins/Cloud Ruins Seal - Toothbrush Alley",
+                "mane": "Toothbrush Alley"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cloud_ruins_map",
+                "x": 370,
+                "y": 115
+              }
+            ]
+          },
+          {
+            "sections": [
+              {
+                "ref": "Cloud Ruins/Cloud Ruins Seal - Saw Pit",
+                "name": "Saw Pit"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cloud_ruins_map",
+                "x": 730,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "sections": [
+              {
+                "ref": "Cloud Ruins/Cloud Ruins Seal - Money Farm Room",
+                "name": "Money Farm Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cloud_ruins_map",
+                "x": 945,
+                "y": 85
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

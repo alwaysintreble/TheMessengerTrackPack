@@ -1,0 +1,109 @@
+﻿[
+  {
+    "name": "Bamboo Creek",
+    "access_rules": ["wingsuit"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
+    "item_count": 1,
+    "sections": [
+      {
+        "name": "Claustro",
+        "chest_unopened_img": "images/items/Icon_PhobekinClaustro.png",
+        "chest_opened_img": "images/items/Icon_PhobekinClaustroBW.png"
+      },
+      {
+        "name": "Bamboo Creek Seal - Spike Crushers and Doors",
+        "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Bamboo Creek Seal - Spike Ball Pits",
+        "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Bamboo Creek Seal - Spike Crushers and Doors v2",
+        "visibility_rules": ["shuffled_power_seals"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 300,
+        "y": 180
+      }
+    ]
+  },
+  {
+    "access_rules": ["wingsuit"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
+    "item_count": 1,
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Bamboo Creek/Claustro",
+            "name": "Claustro"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bamboo_creek_map",
+            "x": 892,
+            "y": 302,
+            "size": 28
+          }
+        ]
+      },
+      {
+        "visibility_rules": ["shuffled_power_seals"],
+        "children": [
+          {
+            "sections": [
+              {
+                "ref": "Bamboo Creek/Bamboo Creek Seal - Spike Crushers and Doors",
+                "name": "Spike Crushers and Doors"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "bamboo_creek_map",
+                "x": 306,
+                "y": 255
+              }
+            ]
+          },
+          {
+            "sections": [
+              {
+                "ref": "Bamboo Creek/Bamboo Creek Seal - Spike Ball Pits",
+                "name": "Spike Ball Pits"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "bamboo_creek_map",
+                "x": 540,
+                "y": 285
+              }
+            ]
+          },
+          {
+            "sections": [
+              {
+                "ref": "Bamboo Creek/Bamboo Creek Seal - Spike Crushers and Doors v2",
+                "name": "Spike Crushers and Doors v2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "bamboo_creek_map",
+                "x": 656,
+                "y": 228
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+﻿{
+  "name": "The Messenger Randomizer Track Pack",
+  "game_name": "The Messenger",
+  "package_version": "1.0.0.0",
+  "package_uid": "messenger_track_pack",
+  "author": "alwaysintreble",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only",
+      "flags": [
+        "ap"
+      ]
+    }
+  },
+  "versions_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/versions.json"
+}
