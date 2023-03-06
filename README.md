@@ -22,3 +22,7 @@ This is the Poptracker Pack for The Messenger Randomizer and supports Archipelag
 ## Usage
 The tracker will show you what you can access with your current items. Glitch/Trick logic is not currently supported. For Archipelago
 Autotracking details see PopTracker's README.
+
+## Special Thanks
+Appreciation to the PopTracker community with help getting this pack together and functional, and Thanks to @Jacksonbird8237 for
+letting me use his maps for this pack!
