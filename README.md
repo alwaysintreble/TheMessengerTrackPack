@@ -6,7 +6,7 @@
 - [Courier](https://github.com/Brokemia/Courier)
 - [The Messenger Randomizer Github](https://github.com/minous27/TheMessengerRandomizerMod)
 - [Jacksonbird8237's HTML Item Tracker](https://github.com/Jacksonbird8237/TheMessengerItemTracker)
-- [Releases]()
+- [Releases](https://github.com/alwaysintreble/TheMessengerTrackPack/releases)
 
 ## About
 This is the Poptracker Pack for The Messenger Randomizer and supports Archipelago Autotracking.
