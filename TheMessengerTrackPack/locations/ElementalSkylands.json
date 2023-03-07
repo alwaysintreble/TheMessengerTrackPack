@@ -71,7 +71,7 @@
             "map_locations": [
               {
                 "map": "elemental_skylands_map",
-                "x": 130,
+                "x": 131,
                 "y": 38
               }
             ]
@@ -90,7 +90,7 @@
                 "map_locations": [
                   {
                     "map": "elemental_skylands_map",
-                    "x": 902,
+                    "x": 903,
                     "y": 165
                   }
                 ]
@@ -105,7 +105,7 @@
                 "map_locations": [
                   {
                     "map": "elemental_skylands_map",
-                    "x": 1342,
+                    "x": 1343,
                     "y": 165
                   }
                 ]
