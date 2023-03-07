@@ -56,21 +56,27 @@
     },
     {
         "name": "glacial_peak_map",
-        "location_size": 60,
+        "location_size": 62,
         "location_border_thickness": 2,
         "img": "images/maps/Glacial_Peak_Map.png"
+    },
+    {
+        "name": "tower_map",
+        "location_size": 65,
+        "location_border_thickness": 4,
+        "img": "images/maps/Tower_of_Time_Map.png"
+    },
+    {
+        "name": "cloud_ruins_map",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/Cloud_Ruins_Map.png"
     },
     {
         "name": "underworld_map",
         "location_size": 30,
         "location_border_thickness": 2,
         "img": "images/maps/Underworld_Map.png"
-    },
-    {
-        "name": "tower_map",
-        "location_size": 64,
-        "location_border_thickness": 4,
-        "img": "images/maps/Tower_of_Time_Map.png"
     },
     {
         "name": "dark_cave_map",

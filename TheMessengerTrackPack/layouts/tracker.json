@@ -137,20 +137,29 @@
                             }
                         },
                         {
-                            "title": "Underworld",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "underworld_map"
-                                ]
-                            }
-                        },
-                        {
                             "title": "Tower of Time",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "tower_map"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cloud Ruins",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "cloud_ruins_map"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Underworld",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "underworld_map"
                                 ]
                             }
                         },
@@ -335,20 +344,29 @@
                             }
                         },
                         {
-                            "title": "Underworld",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "underworld_map"
-                                ]
-                            }
-                        },
-                        {
                             "title": "Tower of Time",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "tower_map"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cloud Ruins",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "cloud_ruins_map"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Underworld",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "underworld_map"
                                 ]
                             }
                         },

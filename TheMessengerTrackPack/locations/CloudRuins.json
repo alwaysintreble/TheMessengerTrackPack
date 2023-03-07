@@ -53,7 +53,8 @@
           {
             "map": "cloud_ruins_map",
             "x": 845,
-            "y": 170
+            "y": 168,
+            "size": 18
           }
         ]
       },
@@ -70,8 +71,8 @@
             "map_locations": [
               {
                 "map": "cloud_ruins_map",
-                "x": 230,
-                "y": 60
+                "x": 229,
+                "y": 63
               }
             ]
           },
@@ -85,8 +86,8 @@
             "map_locations": [
               {
                 "map": "cloud_ruins_map",
-                "x": 370,
-                "y": 115
+                "x": 372,
+                "y": 116
               }
             ]
           },
@@ -100,8 +101,8 @@
             "map_locations": [
               {
                 "map": "cloud_ruins_map",
-                "x": 730,
-                "y": 120
+                "x": 729,
+                "y": 117
               }
             ]
           },
@@ -115,8 +116,8 @@
             "map_locations": [
               {
                 "map": "cloud_ruins_map",
-                "x": 945,
-                "y": 85
+                "x": 943,
+                "y": 82
               }
             ]
           }
