@@ -1,6 +1,15 @@
 ﻿{
   "versions": [
     {
+      "package_version": "1.1.0",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/tag/1.1",
+      "sha256": "B7986BB098B48108B9D630C20CAF4E49DEE4DF3ACCFF2D2A828AE33D905C1DEB",
+      "changelog": [
+        "Added detailed Cloud Ruins",
+        "Adjusted aesthetics of detailed Elemental Skylands and Searing Crags maps"
+      ]
+    },
+    {
       "package_version": "1.0.0",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/tag/1.0",
       "sha256": "B219A5B9FF5A1D547AA5F6559BB634994DBDE70C61FB5D8A79E2EEF958EE5972",
