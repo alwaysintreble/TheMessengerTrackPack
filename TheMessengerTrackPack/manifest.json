@@ -1,7 +1,7 @@
 ﻿{
   "name": "The Messenger Randomizer Track Pack",
   "game_name": "The Messenger",
-  "package_version": "1.1.0.0",
+  "package_version": "1.1.0",
   "package_uid": "messenger_track_pack",
   "author": "alwaysintreble",
   "variants": {
@@ -18,5 +18,5 @@
       ]
     }
   },
-  "versions_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/blob/master/versions.json"
+  "versions_url": "https://raw.githubusercontent.com/alwaysintreble/TheMessengerTrackPack/master/versions.json"
 }
