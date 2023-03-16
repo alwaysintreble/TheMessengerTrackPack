@@ -128,7 +128,7 @@ end
 
 function onLocation(location_id, location_name)
     local v = LOCATIONS_MAPPING[location_id]
-    local d = lOCATIONS_MAPPING[location_id]
+    local d = LOCATIONS_MAPPING[location_id]
     if not v[1] then
         return
     end
