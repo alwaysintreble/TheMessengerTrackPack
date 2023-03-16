@@ -1,6 +1,15 @@
 ﻿{
   "versions": [
     {
+      "package_version": "1.1.6",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.1.6/TheMessengerTrackPack.zip",
+      "sha256": "76E9FCC7659E0784FCEBF58693AF2280E051BD092ABFB052189FF01890E2F524",
+      "changelog": [
+        "Fix missing auto tracking references",
+        "Add Power Seal headers to Power Seal locations in area maps"
+      ]
+    },
+    {
       "package_version": "1.1.5",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.1.5/TheMessengerTrackPack.zip",
       "sha256": "A45ADF7CB5B36C10EE970CC458D5FC49DF945422BFCF6285408DD9A07422115D",
