@@ -1,7 +1,6 @@
 ﻿[
   {
     "name": "Quillshroom Marsh",
-    "visibility_rules": ["shuffled_power_seals"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -10,7 +9,6 @@
         "name": "Seashell",
         "chest_unopened_img": "images/items/Icon_EnchantedSeashell.png",
         "chest_opened_img": "images/items/Icon_EnchantedSeashellBW.png",
-        "visibility_rules": []
       },
       {
         "name": "Quillshroom Marsh Seal - Spikey Window"
