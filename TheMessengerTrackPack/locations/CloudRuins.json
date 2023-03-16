@@ -59,6 +59,7 @@
         ]
       },
       {
+        "name": "Cloud Ruins Seal",
         "visibility_rules": ["shuffled_power_seals"],
         "children": [
           {
@@ -80,7 +81,7 @@
             "sections": [
               {
                 "ref": "Cloud Ruins/Cloud Ruins Seal - Toothbrush Alley",
-                "mane": "Toothbrush Alley"
+                "name": "Toothbrush Alley"
               }
             ],
             "map_locations": [
