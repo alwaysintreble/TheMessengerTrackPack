@@ -1,6 +1,16 @@
 ﻿{
   "versions": [
     {
+      "package_version": "1.1.5",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.1.5/TheMessengerTrackPack.zip",
+      "sha256": "A45ADF7CB5B36C10EE970CC458D5FC49DF945422BFCF6285408DD9A07422115D",
+      "changelog": [
+        "Fix some typos that broke auto tracking",
+        "Add the shop ability upgrades",
+        "Minor renames of the items blocks"
+      ]
+    },
+    {
       "package_version": "1.1.0",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.1/TheMessengerTrackPack.zip",
       "sha256": "06C75ECD517B7EF149192191C5FECAE3A1356D5B3DD0EE16D483D47B82FD5434",
