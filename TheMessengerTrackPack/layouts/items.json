@@ -51,13 +51,13 @@
                 "rows": [
                     [
                         "cloudstep",
-                        "projectiles",
-                        "second_wind"
+                        "attack_projectile",
+                        "air_recover"
                     ],
                     [
                         "swim_dash",
-                        "power_swing",
-                        "charge_swing"
+                        "glide_attack",
+                        "power_attack"
                     ]
                 ]
             }
@@ -95,7 +95,7 @@
         "content": [
             {
                 "type": "itemgrid",
-                "item_margin": "4,4",
+                "item_margin": "10,4",
                 "rows": [
                     [
                         "time_shard",
@@ -117,7 +117,7 @@
         "content": [
             {
                 "type": "itemgrid",
-                "item_margin": "14,4",
+                "item_margin": "10,4",
                 "rows": [
                     [
                         "acro",
@@ -161,7 +161,7 @@
                 "content": [
                     {
                         "type": "group",
-                        "header": "Use Items",
+                        "header": "Items",
                         "dock": "left",
                         "h_alignment": "center",
                         "content": [
@@ -178,7 +178,7 @@
                 "content": [
                     {
                         "type": "group",
-                        "header": "Passive Upgrades",
+                        "header": "Abilities",
                         "dock": "top",
                         "h_alignment": "center",
                         "content": {
@@ -203,7 +203,7 @@
                 "content": [
                     {
                         "type": "group",
-                        "header": "Consumables",
+                        "header": "Collectibles",
                         "dock": "top",
                         "h_alignment": "center",
                         "content": {

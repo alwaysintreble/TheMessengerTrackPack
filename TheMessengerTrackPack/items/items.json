@@ -39,7 +39,7 @@
     "name": "Scroll",
     "type": "toggle",
     "allow_disabled": false,
-    "img": "images/items/Icon_Scroll.png",
+    "img": "images/items/Icon_UpgradedScroll.png",
     "codes": "scroll"
   },
   {
@@ -149,6 +149,65 @@
     "codes": "moon_crest"
   },
   {
+    "name": "Cloudstep",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/Icon_CloudStep.png",
+    "codes": "cloudstep"
+  },
+  {
+    "name": "Strike of the Ninja",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/Icon_AttackProjectile.png",
+    "codes": "attack_projectile"
+  },
+  {
+    "name": "Second wind",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/Icon_AirRecover.png",
+    "codes": "air_recover"
+  },
+  {
+    "name": "Currents master",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/Icon_SwimDash.png",
+    "codes": "swim_dash"
+  },
+  {
+    "name": "Aerobatics warrior",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/Icon_GlideAttack.png",
+    "codes": "glide_attack"
+  },
+  {
+    "name": "Demon's bane",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/Icon_PowerAttack.png",
+    "codes": "power_attack"
+  },
+  {
+    "name": "Power Seal",
+    "type": "consumable",
+    "img": "images/items/Icon_PowerSeals.png",
+    "codes": "power_seal",
+    "overlay_background": "#000000",
+    "max_quantity": 45
+  },
+  {
+    "name": "Time Shard",
+    "type": "consumable",
+    "img": "images/items/CoinIcon.png",
+    "codes": "time_shard",
+    "overlay_background": "#000000",
+    "max_quantity": 9999,
+    "increment": 69
+  },
+  {
     "name": "Necro",
     "type": "toggle",
     "img": "images/items/Icon_PhobekinNecro.png",
@@ -175,22 +234,5 @@
     "img": "images/items/Icon_PhobekinAcro.png",
     "disabled_img": "images/items/Icon_PhobekinAcroBW.png",
     "codes": "acro"
-  },
-  {
-    "name": "Power Seal",
-    "type": "consumable",
-    "img": "images/items/Icon_PowerSeals.png",
-    "codes": "power_seal",
-    "overlay_background": "#000000",
-    "max_quantity": 45
-  },
-  {
-    "name": "Time Shard",
-    "type": "consumable",
-    "img": "images/items/CoinIcon.png",
-    "codes": "time_shard",
-    "overlay_background": "#000000",
-    "max_quantity": 9999,
-    "increment": 69
   }
 ]
