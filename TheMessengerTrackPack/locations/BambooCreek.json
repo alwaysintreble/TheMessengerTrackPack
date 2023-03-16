@@ -58,6 +58,7 @@
         "visibility_rules": ["shuffled_power_seals"],
         "children": [
           {
+            "name": "Bamboo Creek Seal",
             "sections": [
               {
                 "ref": "Bamboo Creek/Bamboo Creek Seal - Spike Crushers and Doors",
@@ -73,6 +74,7 @@
             ]
           },
           {
+            "name": "Bamboo Creek Seal",
             "sections": [
               {
                 "ref": "Bamboo Creek/Bamboo Creek Seal - Spike Ball Pits",
@@ -88,6 +90,7 @@
             ]
           },
           {
+            "name": "Bamboo Creek Seal",
             "sections": [
               {
                 "ref": "Bamboo Creek/Bamboo Creek Seal - Spike Crushers and Doors v2",

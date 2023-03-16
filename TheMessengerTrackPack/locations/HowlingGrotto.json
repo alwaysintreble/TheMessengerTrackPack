@@ -59,6 +59,7 @@
         "visibility_rules": ["shuffled_power_seals"],
         "children": [
           {
+            "name": "Howling Grotto Seal",
             "sections": [
               {
                 "ref": "Howling Grotto/Howling Grotto Seal - Windy Saws and Balls",
@@ -74,6 +75,7 @@
             ]
           },
           {
+            "name": "Howling Grotto Seal",
             "sections": [
               {
                 "ref": "Howling Grotto/Howling Grotto Seal - Crushing Pits",
@@ -90,6 +92,7 @@
             ]
           },
           {
+            "name": "Howling Grotto Seal",
             "sections": [
               {
                 "ref": "Howling Grotto/Howling Grotto Seal - Breezy Crushers",

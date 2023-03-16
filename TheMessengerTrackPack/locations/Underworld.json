@@ -65,6 +65,7 @@
         "visibility_rules": ["shuffled_power_seals"],
         "children": [
           {
+            "name": "Underworld Seal",
             "sections": [
               {
                 "ref": "Underworld/Underworld Seal - Sharp and Windy Climb",
@@ -81,6 +82,7 @@
             ]
           },
           {
+            "name": "Underworld Seal",
             "sections": [
               {
                 "ref": "Underworld/Underworld Seal - Spike Wall",
@@ -96,6 +98,7 @@
             ]
           },
           {
+            "name": "Underworld Seal",
             "sections": [
               {
                 "ref": "Underworld/Underworld Seal - Fireball Wave",
@@ -112,6 +115,7 @@
             ]
           },
           {
+            "name": "Underworld Seal",
             "sections": [
               {
                 "ref": "Underworld/Underworld Seal - Rising Fanta",

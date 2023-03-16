@@ -91,6 +91,7 @@
     "item_count": 1,
     "children": [
       {
+        "name": "Autumn Hills Seal",
         "sections": [
           {
             "ref": "Autumn Hills/Autumn Hills Seal - Trip Saws",
@@ -106,6 +107,7 @@
         ]
       },
       {
+        "name": "Autumn Hills Seal",
         "sections": [
           {
             "ref": "Autumn Hills/Autumn Hills Seal - Double Swing Saws",
@@ -121,6 +123,7 @@
         ]
       },
       {
+        "name": "Autumn Hills Seal",
         "sections": [
           {
             "ref": "Autumn Hills/Autumn Hills Seal - Spike Ball Swing",
@@ -136,6 +139,7 @@
         ]
       },
       {
+        "name": "Autumn Hills Seal",
         "sections": [
           {
             "ref": "Autumn Hills/Autumn Hills Seal - Spike Ball Darts",

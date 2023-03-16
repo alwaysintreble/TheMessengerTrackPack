@@ -37,6 +37,7 @@
     "item_count": 1,
     "children": [
       {
+        "name": "Glacial Peak Seal",
         "sections": [
           {
             "ref": "Glacial Peak/Glacial Peak Seal - Ice Climbers",
@@ -53,6 +54,7 @@
         ]
       },
       {
+        "name": "Glacial Peak Seal",
         "sections": [
           {
             "ref": "Glacial Peak/Glacial Peak Seal - Projectile Spike Pit",
@@ -69,6 +71,7 @@
         ]
       },
       {
+        "name": "Glacial Peak Seal",
         "sections": [
           {
             "ref": "Glacial Peak/Glacial Peak Seal - Glacial Air Swag",

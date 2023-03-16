@@ -38,6 +38,7 @@
       {
         "sections": [
           {
+            "ref": "Ninja Village/Astral Seed",
             "name": "Astral Seed",
             "chest_unopened_img": "images/items/Icon_AstralTeaSeed.png",
             "chest_opened_img": "images/items/Icon_AstralTeaSeedBW.png"
@@ -54,6 +55,7 @@
       {
         "sections": [
           {
+            "ref": "Ninja Village/Candle",
             "name": "Candle",
             "chest_unopened_img": "images/items/Icon_Candle.png",
             "chest_opened_img": "images/items/Icon_CandleBW.png"
@@ -75,6 +77,7 @@
     "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
     "item_count": 1,
+    "name": "Ninja Village Seal",
     "sections": [
       {
         "ref": "Ninja Village/Ninja Village Seal - Tree House",

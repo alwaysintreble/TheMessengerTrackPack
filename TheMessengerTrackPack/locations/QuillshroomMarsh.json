@@ -52,6 +52,7 @@
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
         "children": [
           {
+            "name": "Quillshroom Marsh Seal",
             "sections": [
               {
                 "ref": "Quillshroom Marsh/Quillshroom Marsh Seal - Spikey Window",
@@ -67,6 +68,7 @@
             ]
           },
           {
+            "name": "Quillshroom Marsh Seal",
             "sections": [
               {
                 "ref": "Quillshroom Marsh/Quillshroom Marsh Seal - Sand Trap",
@@ -82,6 +84,7 @@
             ]
           },
           {
+            "name": "Quillshroom Marsh Seal",
             "sections": [
               {
                 "ref": "Quillshroom Marsh/Quillshroom Marsh Seal - Do the Spike Wave",

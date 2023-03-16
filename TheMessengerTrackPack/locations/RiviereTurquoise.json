@@ -59,6 +59,7 @@
         "visibility_rules": ["shuffled_power_seals"],
         "children": [
           {
+            "name": "Riviere Turquoise Seal",
             "sections": [
               {
                 "ref": "Riviere Turquoise/Riviere Turquoise Seal - Bounces and Balls",
@@ -74,6 +75,7 @@
             ]
           },
           {
+            "name": "Riviere Turquoise Seal",
             "sections": [
               {
                 "ref": "Riviere Turquoise/Riviere Turquoise Seal - Launch of Faith",
@@ -89,6 +91,7 @@
             ]
           },
           {
+            "name": "Riviere Turquoise Seal",
             "sections": [
               {
                 "ref": "Riviere Turquoise/Riviere Turquoise Seal - Flower Power",

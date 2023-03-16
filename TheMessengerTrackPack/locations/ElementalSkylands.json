@@ -61,6 +61,7 @@
         "visibility_rules": ["shuffled_power_seals"],
         "children": [
           {
+            "name": "Elemental Skylands Seal",
             "access_rules": ["wingsuit"],
             "sections": [
               {
@@ -81,6 +82,7 @@
             "access_rules": ["grapplou"],
             "children": [
               {
+                "name": "Elemental Skylands Seal",
                 "sections": [
                   {
                     "ref": "Elemental Skylands/Elemental Skylands Seal - Water",
@@ -96,6 +98,7 @@
                 ]
               },
               {
+                "name": "Elemental Skylands Seal",
                 "sections": [
                   {
                     "ref": "Elemental Skylands/Elemental Skylands Seal - Fire",

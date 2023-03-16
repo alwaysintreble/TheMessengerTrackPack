@@ -126,6 +126,7 @@
         "visibility_rules": ["shuffled_power_seals"],
         "children": [
           {
+            "name": "Sunken Shrine Seal",
             "sections": [
               {
                 "ref": "Sunken Shrine/Sunken Shrine Seal - Ultra Lifeguard",
@@ -142,6 +143,7 @@
             ]
           },
           {
+            "name": "Sunken Shrine Seal",
             "sections": [
               {
                 "ref": "Sunken Shrine/Sunken Shrine Seal - Waterfall Paradise",
@@ -159,6 +161,7 @@
             ]
           },
           {
+            "name": "Sunken Shrine Seal",
             "sections": [
               {
                 "ref": "Sunken Shrine/Sunken Shrine Seal - Tabi Gauntlet",

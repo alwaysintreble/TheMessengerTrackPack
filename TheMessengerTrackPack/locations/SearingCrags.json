@@ -69,6 +69,7 @@
         "name": "Searing Crags",
         "sections": [
           {
+            "ref": "Searing Crags/Rope Dart",
             "name": "Rope Dart",
             "chest_unopened_img": "images/items/Icon_Graplou.png",
             "chest_opened_img": "images/items/Icon_GraplouBW.png"
@@ -156,6 +157,7 @@
             "visibility_rules": ["shuffled_power_seals"],
             "children": [
               {
+                "name": "Searing Crags Seal",
                 "sections": [
                   {
                     "ref": "Searing Crags/Searing Crags Seal - Triple Ball Spinner",
@@ -171,6 +173,7 @@
                 ]
               },
               {
+                "name": "Searing Crags Seal",
                 "sections": [
                   {
                     "ref": "Searing Crags/Searing Crags Seal - Raining Rocks",
@@ -186,6 +189,7 @@
                 ]
               },
               {
+                "name": "Searing Crags Seal",
                 "sections": [
                   {
                     "ref": "Searing Crags/Searing Crags Seal - Rhythm Rocks",

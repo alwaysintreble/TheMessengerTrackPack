@@ -59,10 +59,10 @@
         ]
       },
       {
-        "name": "Cloud Ruins Seal",
         "visibility_rules": ["shuffled_power_seals"],
         "children": [
           {
+            "name": "Cloud Ruins Seal",
             "sections": [
               {
                 "ref": "Cloud Ruins/Cloud Ruins Seal - Ghost Pit",
@@ -78,6 +78,7 @@
             ]
           },
           {
+            "name": "Cloud Ruins Seal",
             "sections": [
               {
                 "ref": "Cloud Ruins/Cloud Ruins Seal - Toothbrush Alley",
@@ -93,6 +94,7 @@
             ]
           },
           {
+            "name": "Cloud Ruins Seal",
             "sections": [
               {
                 "ref": "Cloud Ruins/Cloud Ruins Seal - Saw Pit",

@@ -81,6 +81,7 @@
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
         "children": [
           {
+            "name": "Catacombs Seal",
             "sections": [
               {
                 "ref": "Catacombs/Catacombs Seal - Triple Spike Crushers",
@@ -96,6 +97,7 @@
             ]
           },
           {
+            "name": "Catacombs Seal",
             "sections": [
               {
                 "ref": "Catacombs/Catacombs Seal - Crusher Gauntlet",
@@ -111,6 +113,7 @@
             ]
           },
           {
+            "name": "Catacombs Seal",
             "sections": [
               {
                 "ref": "Catacombs/Catacombs Seal - Dirty Pond",
