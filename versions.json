@@ -1,6 +1,17 @@
 ﻿{
   "versions": [
     {
+      "package_version": "1.2.0",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.2.0/TheMessengerTrackPack.zip",
+      "sha256": "B456B11DA1E3A881687CB23813615650228534C13373565824E41834913550AB",
+      "changelog": [
+        "Add support for more difficult logic sets",
+        "Add support for out of logic checks",
+        "Add tab auto switching when user changes areas",
+        "Tab Auto switching requires newest client; Map will not change correctly if player returns to the same map they just left from Tower of Time"
+      ]
+    },
+    {
       "package_version": "1.1.6",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.1.6/TheMessengerTrackPack.zip",
       "sha256": "76E9FCC7659E0784FCEBF58693AF2280E051BD092ABFB052189FF01890E2F524",
