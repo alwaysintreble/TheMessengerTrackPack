@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -61,11 +62,11 @@ function onClear(slot_data)
         print(string.format("goal: %s", slot_data["goal"]))
         print(string.format("required seals: %s", slot_data["required_seals"]))
     end
+    
     if slot_data["goal"] then
         if slot_data["goal"] == "open_music_box" then
             Tracker:FindObjectForCode("goal").CurrentStage = 0
-        end
-        if slot_data["goal"] == "power_seal_hunt" then
+        elseif slot_data["goal"] == "power_seal_hunt" then
             Tracker:FindObjectForCode("goal").CurrentStage = 1
             Tracker:FindObjectForCode("required_seals").AcquiredCount = tonumber(slot_data["required_seals"])
         end
@@ -76,6 +77,20 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("shuffled_power_seals").CurrentStage = 0
         end
     end
+
+    if slot_data["logic"] then
+        if slot_data["logic"] == "normal" then
+            Tracker:FindObjectForCode("logic").CurrentStage = 0
+        elseif slot_data["logic"] == "hard" then
+            Tracker:FindObjectForCode("logic").CurrentStage = 1
+        elseif slot_data["logic"] == "challenging" then
+            Tracker:FindObjectForCode("logic").CurrentStage = 2
+        elseif slot_data["logic"] == "oob" then
+            Tracker:FindObjectForCode("logic").CurrentStage = 3
+        end
+    end
+
+    Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":CurrentRegion"})
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -144,6 +159,17 @@ function onLocation(location_id, location_name)
         end
     end
 end
+
+function onChangedRegion(key, current_region, old_region)
+    print(current_region)
+    print(CURRENT_ROOM_ADDRESS)
+    print(TABS_MAPPING)
+    local new_map = TABS_MAPPING[current_region]
+    print(new_map)
+    ScriptHost:ActivateTab(new_map)
+end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("CurrentRegion", onChangedRegion)
