@@ -14,7 +14,7 @@
     "sections": [
       {
         "name": "Fairy Bottle",
-        "access_rules": ["$vertical"],
+        "access_rules": ["$vertical", "[challenging]", "oob"],
         "chest_unopened_img": "images/items/Icon_MagicFirefly.png",
         "chest_opened_img": "images/items/Icon_MagicFireflyBW.png"
       },
@@ -29,7 +29,7 @@
       {
         "name": "Riviere Turquoise Seal - Flower Power",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["$vertical"]
+        "access_rules": ["$vertical", "[challenging]", "oob"]
       }
     ]
   },

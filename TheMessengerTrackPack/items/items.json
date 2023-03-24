@@ -55,7 +55,7 @@
     "type": "toggle",
     "img": "images/items/Icon_WindmillShuriken.png",
     "disabled_img": "images/items/Icon_WindmillShurikenBW.png",
-    "codes": "windmill_shuriken"
+    "codes": "windmill"
   },
   {
     "name": "Wingsuit",

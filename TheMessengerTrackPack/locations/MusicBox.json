@@ -3,7 +3,8 @@
     "name": "Music Box",
     "access_rules": [
       "open_music_box, $open_music_box",
-      "power_seal_hunt, $open_store_chest"
+      "power_seal_hunt, $open_store_chest",
+      "oob"
     ],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",

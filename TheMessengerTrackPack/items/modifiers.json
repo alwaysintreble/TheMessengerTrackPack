@@ -45,14 +45,30 @@
   {
     "name": "Logic",
     "type": "progressive",
+    "loop": true,
     "allow_disabled": false,
     "initial_stage_idx": 0,
+    "codes": "logic",
     "stages": [
       {
         "name": "Normal Logic",
-        "img": "images/",
-        "codes": "normal_logic",
-        "inherit_codes": false
+        "img": "images/Player_TowerOfTimeAppear_5.png",
+        "codes": "normal"
+      },
+      {
+        "name": "Hard Logic",
+        "img": "images/playerKoalaPlaceholder.png",
+        "codes": "hard"
+      },
+      {
+        "name": "Challenging Logic",
+        "img": "images/Player16_GameOver_0.png",
+        "codes": "challenging"
+      },
+      {
+        "name": "No Logic",
+        "img": "images/Suses_16.png",
+        "codes": "oob"
       }
     ]
   }

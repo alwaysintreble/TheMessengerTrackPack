@@ -1,7 +1,7 @@
 ﻿[
   {
     "name": "Catacombs",
-    "access_rules": ["wingsuit"],
+    "access_rules": ["wingsuit", "$vertical, [hard]", "$vertical, challenging", "oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
     "item_count": 1,

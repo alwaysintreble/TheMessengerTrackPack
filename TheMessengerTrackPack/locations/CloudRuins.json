@@ -1,7 +1,7 @@
 ﻿[
   {
     "name": "Cloud Ruins",
-    "access_rules": ["wingsuit, ruxxtin_amulet"],
+    "access_rules": ["wingsuit, ruxxtin_amulet", "oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,

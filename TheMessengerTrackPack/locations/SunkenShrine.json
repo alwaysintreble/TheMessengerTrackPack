@@ -19,13 +19,13 @@
       },
       {
         "name": "Sun Crest",
-        "access_rules": ["lightfoot_tabi"],
+        "access_rules": ["lightfoot_tabi", "oob"],
         "chest_unopened_img": "images/items/Icon_SunCrest.png",
         "chest_opened_img": "images/items/Icon_SunCrestBW.png"
       },
       {
         "name": "Moon Crest",
-        "access_rules": ["lightfoot_tabi"],
+        "access_rules": ["lightfoot_tabi", "oob"],
         "chest_unopened_img": "images/items/Icon_MoonCrest.png",
         "chest_opened_img": "images/items/Icon_MoonCrestBW.png"
       },
@@ -44,12 +44,12 @@
       },
       {
         "name": "Sunken Shrine Seal - Waterfall Paradise",
-        "access_rules": ["lightfoot_tabi"],
+        "access_rules": ["lightfoot_tabi", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Sunken Shrine Seal - Tabi Gauntlet",
-        "access_rules": ["lightfoot_tabi"],
+        "access_rules": ["lightfoot_tabi", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       }
     ]

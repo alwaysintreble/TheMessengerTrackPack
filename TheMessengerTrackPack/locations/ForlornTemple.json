@@ -1,7 +1,7 @@
 ﻿[
   {
     "name": "Forlorn Temple",
-    "access_rules": ["necro, pyro, claustro, acro, wingsuit"],
+    "access_rules": ["necro, pyro, claustro, acro, wingsuit", "necro, pyro, claustro, acro, $vertical, [hard]", "necro, pyro, claustro, acro, $vertical, challenging", "wingsuit, windmill, challenging", "oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
     "item_count": 1,

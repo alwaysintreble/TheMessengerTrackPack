@@ -1,7 +1,7 @@
 ﻿[
   {
     "name": "Underworld",
-    "access_rules": ["lightfoot_tabi"],
+    "access_rules": ["lightfoot_tabi", "oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -20,7 +20,7 @@
       },
       {
         "name": "Underworld Seal - Sharp and Windy Climb",
-        "access_rules": ["wingsuit"],
+        "access_rules": ["wingsuit", "[challenging]", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
@@ -29,7 +29,7 @@
       },
       {
         "name": "Underworld Seal - Fireball Wave",
-        "access_rules": ["wingsuit"],
+        "access_rules": ["wingsuit", "lightfoot_tabi, windmill, [hard]", "lightfoot_tabi, windmill, challenging", "windmill, oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {

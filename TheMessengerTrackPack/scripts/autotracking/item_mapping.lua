@@ -5,7 +5,7 @@ ITEMS = {
     { "key_of_love", "toggle" },
     { "key_of_strength", "toggle" },
     { "key_of_symbiosis", "toggle" },
-    { "windmill_shuriken", "toggle" },
+    { "windmill", "toggle" },
     { "wingsuit", "toggle" },
     { "grapplou", "toggle" },
     { "lightfoot_tabi", "toggle" },

@@ -1,7 +1,7 @@
 ﻿[
   {
     "name": "Elemental Skylands",
-    "access_rules": ["fairy_bottle, $vertical"],
+    "access_rules": ["fairy_bottle, $vertical", "$vertical, oob", "fairy_bottle, oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -16,21 +16,22 @@
       {
         "name": "Key of Symbiosis",
         "chest_unopened_img": "images/items/Note_Symbiosis.png",
-        "chest_opened_img": "images/items/Note_SymbiosisBW.png"
+        "chest_opened_img": "images/items/Note_SymbiosisBW.png",
+        "access_rules": ["$vertical, [challenge]", "windmill, [challenge]", "oob"]
       },
       {
         "name": "Elemental Skylands Seal - Air",
-        "access_rules": ["wingsuit"],
+        "access_rules": ["wingsuit, fairy_bottle", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Elemental Skylands Seal - Water",
-        "access_rules": ["grapplou"],
+        "access_rules": ["grapplou, fairy_bottle", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Elemental Skylands Seal - Fire",
-        "access_rules": ["grapplou"],
+        "access_rules": ["grapplou, fairy_bottle", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       }
     ]

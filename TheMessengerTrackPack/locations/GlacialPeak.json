@@ -15,15 +15,15 @@
     "sections": [
       {
         "name": "Glacial Peak Seal - Ice Climbers",
-        "access_rules": ["grapplou"]
+        "access_rules": ["grapplou", "[hard]", "challenging", "oob"]
       },
       {
         "name": "Glacial Peak Seal - Projectile Spike Pit",
-        "access_rules": ["wingsuit", "grapplou"]
+        "access_rules": ["wingsuit", "grapplou", "[hard]", "challenging", "oob"]
       },
       {
         "name": "Glacial Peak Seal - Glacial Air Swag",
-        "access_rules": ["wingsuit", "grapplou"],
+        "access_rules": ["wingsuit", "grapplou", "windmill, [hard]", "windmill, challenging", "oob"],
         "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png"
       }

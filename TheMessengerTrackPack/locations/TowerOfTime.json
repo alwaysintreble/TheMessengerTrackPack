@@ -14,11 +14,11 @@
           },
           {
             "name": "Tower of Time Seal - Lantern Climb",
-            "access_rules": ["wingsuit"]
+            "access_rules": ["wingsuit", "oob"]
           },
           {
             "name": "Tower of Time Seal - Arcane Orbs",
-            "access_rules": ["wingsuit, grapplou"]
+            "access_rules": ["wingsuit, grapplou", "oob"]
           }
         ],
         "map_locations": [

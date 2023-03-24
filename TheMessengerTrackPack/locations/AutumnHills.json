@@ -1,7 +1,7 @@
 [
   {
     "name": "Autumn Hills",
-    "access_rules": ["wingsuit"],
+    "access_rules": ["wingsuit", "$vertical, [hard]", "$vertical, challenging", "oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -22,7 +22,7 @@
         "name": "Key of Hope",
         "chest_unopened_img": "images/items/Note_Hope.png",
         "chest_opened_img": "images/items/Note_HopeBW.png",
-        "access_rules": ["grapplou"]
+        "access_rules": ["grapplou", "$vertical, [challenging]", "oob"]
       },
       {
         "name": "Autumn Hills Seal - Trip Saws",
@@ -42,7 +42,8 @@
       },
       {
         "name": "Autumn Hills Seal - Spike Ball Darts",
-        "visibility_rules": ["shuffled_power_seals"]
+        "visibility_rules": ["shuffled_power_seals"],
+        "access_rules": ["wingsuit, [hard]", "wingsuit, challenging", "grapplou, windmill, [hard]", "grapplou, windmill, challenging", "$vertical, oob"]
       }
     ]
   },

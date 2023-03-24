@@ -146,7 +146,8 @@
                         "shuffled_power_seals"
                     ],
                     [
-                        "required_seals"
+                        "required_seals",
+                        "logic"
                     ]
                 ]
             }
