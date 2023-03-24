@@ -164,10 +164,14 @@ function onChangedRegion(key, current_region, old_region)
     print(current_region)
     print(CURRENT_ROOM_ADDRESS)
     print(TABS_MAPPING)
-    local new_map = TABS_MAPPING[current_region]
-    print(new_map)
-    ScriptHost:ActivateTab(new_map)
-end
+    if TABS_MAPPING[current_region] then
+        CURRENT_ROOM = TABS_MAPPING[current_region]
+    else
+        CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+    end
+    print(CURRENT_ROOM)
+    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+    end
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)

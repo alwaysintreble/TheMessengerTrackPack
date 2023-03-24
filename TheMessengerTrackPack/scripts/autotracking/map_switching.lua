@@ -1,4 +1,4 @@
-﻿CURRENT_ROOM = nil
+CURRENT_ROOM = nil
 CURRENT_ROOM_ADDRESS = "Level_13_TowerOfTimeHQ"
 
 TABS_MAPPING =
@@ -21,5 +21,5 @@ TABS_MAPPING =
     ["Level_11_B_MusicBox"] = "Overworld",
     ["Level_12_UnderWorld"] = "Underworld",
     ["Level_13_TowerOfTimeHQ"] = "Overworld",
-    ["Level_14_CorruptedFuture"] = "Overworld"
+    ["Level_14_CorruptedFuture"] = "Overworld",
 }
