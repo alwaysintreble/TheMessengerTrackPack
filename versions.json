@@ -1,6 +1,14 @@
 ﻿{
   "versions": [
     {
+      "package_version": "1.2.1",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.2.1/TheMessengerTrackPack.zip",
+      "sha256": "5AAE3BE4EF56CD914D54D5BB8BA3ADBF38FA7EE742E557D5AF61C5026B3E5599",
+      "changelog": [
+        "Fixes Waterfall Paradise and Tabi Gauntlet being swapped on the map"
+      ]
+    },
+    {
       "package_version": "1.2.0",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.2.0/TheMessengerTrackPack.zip",
       "sha256": "B456B11DA1E3A881687CB23813615650228534C13373565824E41834913550AB",
