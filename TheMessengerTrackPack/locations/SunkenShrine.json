@@ -154,8 +154,8 @@
             "map_locations": [
               {
                 "map": "sunken_shrine_map",
-                "x": 208,
-                "y": 508,
+                "x": 838,
+                "y": 878,
                 "size": 46
               }
             ]
@@ -172,8 +172,8 @@
             "map_locations": [
               {
                 "map": "sunken_shrine_map",
-                "x": 838,
-                "y": 878,
+                "x": 208,
+                "y": 508,
                 "size": 46
               }
             ]
