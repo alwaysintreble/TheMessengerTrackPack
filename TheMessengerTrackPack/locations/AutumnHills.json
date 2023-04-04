@@ -44,6 +44,17 @@
         "name": "Autumn Hills Seal - Spike Ball Darts",
         "visibility_rules": ["shuffled_power_seals"],
         "access_rules": ["wingsuit, [hard]", "wingsuit, challenging", "grapplou, windmill, [hard]", "grapplou, windmill, challenging", "$vertical, oob"]
+      },
+      {
+        "name": "Autumn Hills Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
+      },
+      {
+        "name": "Leaf Golem",
+        "chest_unopened_img": "images/LeafBoss_20.png",
+        "chest_opened_img": "images/LeafBoss_20BW.png"
       }
     ]
   },
@@ -81,10 +92,24 @@
             "y": 77
           }
         ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Autumn Hills/Leaf Golem"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "autumn_hills_map",
+            "x": 765,
+            "y": 90
+          }
+        ]
       }
     ]
   },
-  {
+  { // power seals
     "access_rules": ["wingsuit"],
     "visibility_rules": ["shuffled_power_seals"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
@@ -152,6 +177,30 @@
             "map": "autumn_hills_map",
             "x": 754,
             "y": 129
+          }
+        ]
+      }
+    ]
+  },
+  {// mega shards
+    "access_rules": ["wingsuit"],
+    "visibility_rules": ["shuffled_shards"],
+    "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+    "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Autumn Hills Mega Shard",
+        "sections": [
+          {
+            "ref": "Autumn Hills/Autumn Hills Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "autumn_hills_map",
+            "x": 485,
+            "y": 195
           }
         ]
       }

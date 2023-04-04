@@ -37,7 +37,7 @@
       },
       {
         "name": "Astral Tea Leaves",
-        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
+        "access_rules": ["@Ninja Village/Astral Seed"],
         "chest_unopened_img": "images/items/Icon_AstralTeaLeaf.png",
         "chest_opened_img": "images/items/Icon_AstralTeaLeafBW.png"
       },

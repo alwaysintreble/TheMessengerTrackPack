@@ -25,6 +25,24 @@
       {
         "name": "Forlorn Temple Seal - Rocket Sunset",
         "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Hidden Entrance Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Sunny Day Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
+      },
+      {
+        "name": "Down Under Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
       }
     ]
   },
@@ -84,6 +102,59 @@
                 "y": 160
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "visibility_rules": ["shuffled_shards"],
+    "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+    "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Forlorn Temple Mega Shard",
+        "sections": [
+          {
+            "ref": "Forlorn Temple/Hidden Entrance Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forlorn_temple_map",
+            "x": 200,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "Forlorn Temple Mega Shard",
+        "sections": [
+          {
+            "ref": "Forlorn Temple/Sunny Day Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forlorn_temple_map",
+            "x": 315,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Forlorn Temple Mega Shard",
+        "sections": [
+          {
+            "ref": "Forlorn Temple/Down Under Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forlorn_temple_map",
+            "x": 625,
+            "y": 545
           }
         ]
       }

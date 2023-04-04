@@ -66,10 +66,22 @@
         "codes": "challenging"
       },
       {
-        "name": "No Logic",
+        "name": "Out of Bounds Logic",
         "img": "images/Suses_16.png",
         "codes": "oob"
       }
     ]
+  },
+  {
+    "name": "Auto Tab Switching",
+    "type": "toggle",
+    "codes": "auto_tab",
+    "img": "images/Icon_Scroll.png"
+  },
+  {
+    "name": "Mega Time Shards",
+    "type": "toggle",
+    "codes": "shuffled_shards",
+    "img": "images/items/MegaTimeshard_16.png"
   }
 ]

@@ -33,11 +33,22 @@
         "name": "Elemental Skylands Seal - Fire",
         "access_rules": ["grapplou, fairy_bottle", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Earth Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Water Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       }
     ]
   },
   {
-    "access_rules": ["fairy_bottle, $vertical"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -115,6 +126,44 @@
                 ]
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "visibility_rules": ["shuffled_shards"],
+    "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+    "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Elemental Skylands Mega Shard",
+        "sections": [
+          {
+            "ref": "Elemental Skylands/Earth Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "elemental_skylands_map",
+            "x": 500,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Elemental Skylands Mega Shard",
+        "sections": [
+          {
+            "ref": "Elemental Skylands/Water Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "elemental_skylands_map",
+            "x": 900,
+            "y": 125
           }
         ]
       }

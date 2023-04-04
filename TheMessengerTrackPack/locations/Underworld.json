@@ -29,18 +29,35 @@
       },
       {
         "name": "Underworld Seal - Fireball Wave",
-        "access_rules": ["wingsuit", "lightfoot_tabi, windmill, [hard]", "lightfoot_tabi, windmill, challenging", "windmill, oob"],
+        "access_rules": ["wingsuit", "windmill, [hard]", "windmill, challenging", "windmill, oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Underworld Seal - Rising Fanta",
         "access_rules": ["grapplou"],
         "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Under Entrance Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Hot Tub Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Projectile Pit Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       }
     ]
   },
   {
-    "access_rules": ["lightfoot_tabi"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -69,8 +86,7 @@
             "sections": [
               {
                 "ref": "Underworld/Underworld Seal - Sharp and Windy Climb",
-                "name": "Sharp and Windy Climb",
-                "access_rules": ["wingsuit"]
+                "name": "Sharp and Windy Climb"
               }
             ],
             "map_locations": [
@@ -102,8 +118,7 @@
             "sections": [
               {
                 "ref": "Underworld/Underworld Seal - Fireball Wave",
-                "name": "Fireball Wave",
-                "access_rules": ["wingsuit"]
+                "name": "Fireball Wave"
               }
             ],
             "map_locations": [
@@ -119,8 +134,7 @@
             "sections": [
               {
                 "ref": "Underworld/Underworld Seal - Rising Fanta",
-                "name": "Rising Fanta",
-                "access_rules": ["grapplou"]
+                "name": "Rising Fanta"
               }
             ],
             "map_locations": [
@@ -128,6 +142,58 @@
                 "map": "underworld_map",
                 "x": 600,
                 "y": 225
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+        "children": [
+          {
+            "name": "Underworld Mega Shard",
+            "sections": [
+              {
+                "ref": "Underworld/Under Entrance Mega Shard"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "underworld_map",
+                "x": 90,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "name": "Underworld Mega Shard",
+            "sections": [
+              {
+                "ref": "Underworld/Hot Tub Mega Shard"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "underworld_map",
+                "x": 730,
+                "y": 75
+              }
+            ]
+          },
+          {
+            "name": "Underworld Mega Shard",
+            "sections": [
+              {
+                "ref": "Underworld/Projectile Pit Mega Shard"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "underworld_map",
+                "x": 780,
+                "y": 210
               }
             ]
           }

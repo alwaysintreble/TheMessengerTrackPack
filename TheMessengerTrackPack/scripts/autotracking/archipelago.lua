@@ -161,9 +161,6 @@ function onLocation(location_id, location_name)
 end
 
 function onChangedRegion(key, current_region, old_region)
-    print(current_region)
-    print(CURRENT_ROOM_ADDRESS)
-    print(TABS_MAPPING)
     if TABS_MAPPING[current_region] then
         CURRENT_ROOM = TABS_MAPPING[current_region]
     else

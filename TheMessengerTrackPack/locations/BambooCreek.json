@@ -23,6 +23,24 @@
       {
         "name": "Bamboo Creek Seal - Spike Crushers and Doors v2",
         "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Above Entrance Mega Shard",
+        "visibility_rules": ["shuffled_mega_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
+      },
+      {
+        "name": "Abandoned Mega Shard",
+        "visibility_rules": ["shuffled_mega_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Time Loop Mega Shard",
+        "visibility_rules": ["shuffled_mega_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       }
     ],
     "map_locations": [
@@ -34,7 +52,6 @@
     ]
   },
   {
-    "access_rules": ["wingsuit"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
     "item_count": 1,
@@ -105,6 +122,59 @@
                 "y": 228
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "visibility_rules": ["shuffled_shards"],
+    "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+    "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Bamboo Creek Mega Shard",
+        "sections": [
+          {
+            "ref": "Bamboo Creek/Above Entrance Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bamboo_creek_map",
+            "x": 305,
+            "y": 70
+          }
+        ]
+      },
+      {
+        "name": "Bamboo Creek Mega Shard",
+        "sections": [
+          {
+            "ref": "Bamboo Creek/Abandoned Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bamboo_creek_map",
+            "x": 385,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Bamboo Creek Mega Shard",
+        "sections": [
+          {
+            "ref": "Bamboo Creek/Time Loop Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bamboo_creek_map",
+            "x": 690,
+            "y": 300
           }
         ]
       }

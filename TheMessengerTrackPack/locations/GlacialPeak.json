@@ -3,7 +3,6 @@
     "name": "Glacial Peak",
     "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
-    "visibility_rules": ["shuffled_power_seals"],
     "item_count": 1,
     "map_locations": [
       {
@@ -15,17 +14,26 @@
     "sections": [
       {
         "name": "Glacial Peak Seal - Ice Climbers",
-        "access_rules": ["grapplou", "[hard]", "challenging", "oob"]
+        "access_rules": ["grapplou", "[hard]", "challenging", "oob"],
+        "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Glacial Peak Seal - Projectile Spike Pit",
-        "access_rules": ["wingsuit", "grapplou", "[hard]", "challenging", "oob"]
+        "access_rules": ["wingsuit", "grapplou", "[hard]", "challenging", "oob"],
+        "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Glacial Peak Seal - Glacial Air Swag",
         "access_rules": ["wingsuit", "grapplou", "windmill, [hard]", "windmill, challenging", "oob"],
+        "visibility_rules": ["shuffled_power_seals"],
         "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png"
+      },
+      {
+        "name": "Glacial Peak Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       }
     ]
   },
@@ -84,6 +92,29 @@
             "map": "glacial_peak_map",
             "x": 755,
             "y": 965
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "visibility_rules": ["shuffled_shards"],
+    "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+    "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Glacial Peak Mega Shard",
+        "sections": [
+          {
+            "ref": "Glacial Peak/Glacial Peak Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "glacial_peak_map",
+            "x": 900,
+            "y": 1710
           }
         ]
       }

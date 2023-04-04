@@ -36,18 +36,30 @@
       {
         "name": "Catacombs Seal - Dirty Pond",
         "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Catacombs Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Ruxxtin",
+        "chest_unopened_img": "images/items/Necromancer_8_11.png",
+        "chest_opened_img": "images/items/Necromancer_8_11BW.png"
       }
     ]
   },
   {
-    "access_rules": ["wingsuit"],
+    "access_rules": [
+      "wingsuit"
+    ],
     "item_count": 1,
     "children": [
       {
         "sections": [
           {
-            "ref": "Catacombs/Necro",
-            "name": "Necro"
+            "ref": "Catacombs/Necro"
           }
         ],
         "map_locations": [
@@ -62,8 +74,10 @@
       {
         "sections": [
           {
-            "ref": "Catacombs/Ruxxtin's Amulet",
-            "name": "Ruxxtin's Amulet"
+            "ref": "Catacombs/Ruxxtin's Amulet"
+          },
+          {
+            "ref": "Catacombs/Ruxxtin"
           }
         ],
         "map_locations": [
@@ -74,62 +88,87 @@
             "size": 30
           }
         ]
+      }
+    ]
+  },
+  {
+    "visibility_rules": ["shuffled_power_seals"],
+    "access_rules": ["wingsuit, ruxxtin_amulet"],
+    "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
+    "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Catacombs Seal",
+        "sections": [
+          {
+            "ref": "Catacombs/Catacombs Seal - Triple Spike Crushers",
+            "name": "Triple Spike Crushers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs_map",
+            "x": 328,
+            "y": 208
+          }
+        ]
       },
       {
-        "visibility_rules": ["shuffled_power_seals"],
-        "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
-        "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
-        "children": [
+        "name": "Catacombs Seal",
+        "sections": [
           {
-            "name": "Catacombs Seal",
-            "sections": [
-              {
-                "ref": "Catacombs/Catacombs Seal - Triple Spike Crushers",
-                "name": "Triple Spike Crushers"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "catacombs_map",
-                "x": 328,
-                "y": 208
-              }
-            ]
-          },
+            "ref": "Catacombs/Catacombs Seal - Crusher Gauntlet",
+            "name": "Crusher Gauntlet"
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Catacombs Seal",
-            "sections": [
-              {
-                "ref": "Catacombs/Catacombs Seal - Crusher Gauntlet",
-                "name": "Crusher Gauntlet"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "catacombs_map",
-                "x": 552,
-                "y": 206
-              }
-            ]
-          },
+            "map": "catacombs_map",
+            "x": 552,
+            "y": 206
+          }
+        ]
+      },
+      {
+        "name": "Catacombs Seal",
+        "sections": [
           {
-            "name": "Catacombs Seal",
-            "sections": [
-              {
-                "ref": "Catacombs/Catacombs Seal - Dirty Pond",
-                "name": "Dirty Pond"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "catacombs_map",
-                "x": 609,
-                "y": 236
-              }
-            ]
+            "ref": "Catacombs/Catacombs Seal - Dirty Pond",
+            "name": "Dirty Pond"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs_map",
+            "x": 609,
+            "y": 236
           }
         ]
       }
     ]
   },
+  {
+    "visibility_rules": ["shuffled_shards"],
+    "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+    "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Catacombs Mega Shard",
+        "sections": [
+          {
+            "ref": "Catacombs/Catacombs Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "catacombs_map",
+            "x": 255,
+            "y": 55
+          }
+        ]
+      }
+    ]
+  }
 ]

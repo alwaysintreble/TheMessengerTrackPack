@@ -9,7 +9,7 @@
 - [Releases](https://github.com/alwaysintreble/TheMessengerTrackPack/releases)
 
 ## About
-This is the Poptracker Pack for The Messenger Randomizer and supports Archipelago Autotracking. Connecting your active
+This is the PopTracker Pack for The Messenger Randomizer and supports Archipelago Autotracking. Connecting your active
 Archipelago slot with this pack will allow locations to automatically mark off as well as automatically switching map
 tabs to match your current location.
 

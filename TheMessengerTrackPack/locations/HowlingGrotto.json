@@ -25,6 +25,29 @@
       {
         "name": "Howling Grotto Seal - Breezy Crushers",
         "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Bottom Left Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Near Portal Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
+      },
+      {
+        "name": "Pie in the Sky Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Emerald Golem",
+        "chest_unopened_img": "images/items/EmeraldBossIcon.png",
+        "chest_opened_img": "images/items/EmeraldBossIconBW.png"
       }
     ],
     "map_locations": [
@@ -52,6 +75,20 @@
             "map": "howling_grotto_map",
             "x": 308,
             "y": 70
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Howling Grotto/Emerald Golem"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "howling_grotto_map",
+            "x": 910,
+            "y": 280
           }
         ]
       },
@@ -106,6 +143,59 @@
                 "y": 388
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "visibility_rules": ["shuffled_shards"],
+    "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+    "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Howling Grotto Mega Shard",
+        "sections": [
+          {
+            "ref": "Howling Grotto/Bottom Left Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "howling_grotto_map",
+            "x": 345,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "Howling Grotto Mega Shard",
+        "sections": [
+          {
+            "ref": "Howling Grotto/Near Portal Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "howling_grotto_map",
+            "x": 700,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Howling Grotto Mega Shard",
+        "sections": [
+          {
+            "ref": "Howling Grotto/Pie in the Sky Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "howling_grotto_map",
+            "x": 755,
+            "y": 210
           }
         ]
       }

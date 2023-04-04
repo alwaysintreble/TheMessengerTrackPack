@@ -8,16 +8,30 @@
       {
         "name": "Seashell",
         "chest_unopened_img": "images/items/Icon_EnchantedSeashell.png",
-        "chest_opened_img": "images/items/Icon_EnchantedSeashellBW.png",
+        "chest_opened_img": "images/items/Icon_EnchantedSeashellBW.png"
       },
       {
-        "name": "Quillshroom Marsh Seal - Spikey Window"
+        "name": "Quillshroom Marsh Seal - Spikey Window",
+        "visibility_rules": ["shuffled_power_seals"]
       },
       {
-        "name": "Quillshroom Marsh Seal - Sand Trap"
+        "name": "Quillshroom Marsh Seal - Sand Trap",
+        "visibility_rules": ["shuffled_power_seals"]
       },
       {
-        "name": "Quillshroom Marsh Seal - Do the Spike Wave"
+        "name": "Quillshroom Marsh Seal - Do the Spike Wave",
+        "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Quillshroom Marsh Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
+      },
+      {
+        "name": "Queen of Quills",
+        "chest_unopened_img": "images/items/QueenOfQuills8_Idle_0.png",
+        "chest_opened_img": "images/items/QueenOfQuills8_Idle_0BW.png"
       }
     ],
     "map_locations": [
@@ -43,6 +57,20 @@
             "map": "quillshroom_marsh_map",
             "x": 240,
             "y": 129
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "ref": "Quillshroom Marsh/Queen of Quills"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "quillshroom_marsh_map",
+            "x": 835,
+            "y": 70
           }
         ]
       },
@@ -98,6 +126,24 @@
                 "y": 48
               }
             ]
+          }
+        ]
+      },
+      {
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png",
+        "name": "Quillshroom Marsh Mega Shard",
+        "sections": [
+          {
+            "ref": "Quillshroom Marsh/Quillshroom Marsh Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "quillshroom_marsh_map",
+            "x": 155,
+            "y": 95
           }
         ]
       }

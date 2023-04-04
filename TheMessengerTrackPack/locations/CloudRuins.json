@@ -1,7 +1,7 @@
 ﻿[
   {
     "name": "Cloud Ruins",
-    "access_rules": ["wingsuit, ruxxtin_amulet", "oob"],
+    "access_rules": ["$vertical, ruxxtin_amulet", "oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -16,28 +16,58 @@
       {
         "name": "Acro",
         "chest_unopened_img": "images/items/Icon_PhobekinAcro.png",
-        "chest_opened_img": "images/items/Icon_PhobekinAcroBW.png"
+        "chest_opened_img": "images/items/Icon_PhobekinAcroBW.png",
+        "access_rules": ["wingsuit"]
       },
       {
         "name": "Cloud Ruins Seal - Ghost Pit",
-        "visibility_rules": ["shuffled_power_seals"]
+        "visibility_rules": ["shuffled_power_seals"],
+        "access_rules": ["wingsuit"]
       },
       {
         "name": "Cloud Ruins Seal - Toothbrush Alley",
-        "visibility_rules": ["shuffled_power_seals"]
+        "visibility_rules": ["shuffled_power_seals"],
+        "access_rules": ["wingsuit"]
       },
       {
         "name": "Cloud Ruins Seal - Saw Pit",
-        "visibility_rules": ["shuffled_power_seals"]
+        "visibility_rules": ["shuffled_power_seals"],
+        "access_rules": ["wingsuit"]
       },
       {
         "name": "Cloud Ruins Seal - Money Farm Room",
-        "visibility_rules": ["shuffled_power_seals"]
+        "visibility_rules": ["shuffled_power_seals"],
+        "access_rules": ["wingsuit"]
+      },
+      {
+        "name": "Cloud Entrance Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Cloud Entrance Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Cloud Entrance Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+        "access_rules": ["wingsuit"]
+      },
+      {
+        "name": "Cloud Entrance Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+        "access_rules": ["wingsuit"]
       }
     ]
   },
   {
-    "access_rules": ["wingsuit, ruxxtin_amulet"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -123,6 +153,74 @@
                 "y": 82
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "visibility_rules": ["shuffled_shards"],
+    "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+    "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+    "item_count": 1,
+    "children": [
+      {
+        "name": "Cloud Ruins Mega Shard",
+        "sections": [
+          {
+            "ref": "Cloud Ruins/Cloud Entrance Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cloud_ruins_map",
+            "x": 100,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Cloud Ruins Mega Shard",
+        "sections": [
+          {
+            "ref": "Cloud Ruins/Time Warp Mega Shard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cloud_ruins_map",
+            "x": 155,
+            "y": 155
+          }
+        ]
+      },
+      {
+        "name": "Cloud Ruins Mega Shard",
+        "sections": [
+          {
+            "ref": "Cloud Ruins/Money Farm Room Mega Shard 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cloud_ruins_map",
+            "x": 917,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Cloud Ruins Mega Shard",
+        "sections": [
+          {
+            "ref": "Cloud Ruins/Money Farm Room Mega Shard 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cloud_ruins_map",
+            "x": 970,
+            "y": 40
           }
         ]
       }

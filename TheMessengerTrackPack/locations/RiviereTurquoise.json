@@ -30,6 +30,26 @@
         "name": "Riviere Turquoise Seal - Flower Power",
         "visibility_rules": ["shuffled_power_seals"],
         "access_rules": ["$vertical", "[challenging]", "oob"]
+      },
+      {
+        "name": "Waterfall Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
+      },
+      {
+        "name": "Quick Restock Mega Shard 1",
+        "access_rules": ["$vertical", "[oob]"],
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
+      },
+      {
+        "name": "Quick Restock Mega Shard 2",
+        "access_rules": ["$vertical", "[oob]"],
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
       }
     ]
   },
@@ -104,6 +124,58 @@
                 "map": "riviere_turquoise_map",
                 "x": 786,
                 "y": 125
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png",
+        "children": [
+          {
+            "name": "Riviere Turquoise Mega Shard",
+            "sections": [
+              {
+                "ref": "Riviere Turquoise/Waterfall Mega Shard"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "riviere_turquoise_map",
+                "x": 3025,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "name": "Riviere Turquoise Mega Shard",
+            "sections": [
+              {
+                "ref": "Riviere Turquoise/Quick Restock Mega Shard 1"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "riviere turquoise map",
+                "x": 1430,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "name": "Riviere Turquoise Mega Shard",
+            "sections": [
+              {
+                "ref": "Riviere Turquoise/Quick Restock Mega Shard 2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "riviere turquoise map",
+                "x": 1335,
+                "y": 275
               }
             ]
           }

@@ -51,6 +51,32 @@
         "name": "Sunken Shrine Seal - Tabi Gauntlet",
         "access_rules": ["lightfoot_tabi", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Mega Shard of the Moon",
+        "visibility_rules": ["shuffled_shards"],
+        "access_rules": ["lightfoot_tabi", "oob"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Beginner's Mega Shard",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Mega Shard of the Stars",
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
+      },
+      {
+        "name": "Mega Shard of the Sun",
+        "access_rules": ["lightfoot_tabi", "oob"],
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
       }
     ]
   },
@@ -175,6 +201,73 @@
                 "x": 208,
                 "y": 508,
                 "size": 46
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_8.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
+        "children": [
+          {
+            "name": "Sunken Shrine Mega Shard",
+            "sections": [
+              {
+                "ref": "Sunken Shrine/Mega Shard of the Moon"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sunken_shrine_map",
+                "x": 435,
+                "y": 875
+              }
+            ]
+          },
+          {
+            "name": "Sunken Shrine Mega Shard",
+            "sections": [
+              {
+                "ref": "Sunken Shrine/Beginner's Mega Shard"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sunken_shrine_map",
+                "x": 795,
+                "y": 550
+              }
+            ]
+          },
+          {
+            "name": "Sunken Shrine Mega Shard",
+            "sections": [
+              {
+                "ref": "Sunken Shrine/Mega Shard of the Stars"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sunken_shrine_map",
+                "x": 525,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "name": "Sunken Shrine Mega Shard",
+            "sections": [
+              {
+                "ref": "Sunken Shrine/Mega Shard of the Sun"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "sunken_shrine_map",
+                "x": 115,
+                "y": 650
               }
             ]
           }
