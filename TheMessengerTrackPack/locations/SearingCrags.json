@@ -57,6 +57,13 @@
         "name": "Searing Crags Seal - Rhythm Rocks",
         "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
+      },
+      {
+        "name": "Searing Crags Mega Shard",
+        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
+        "visibility_rules": ["shuffled_shards"],
+        "chest_unopened_img": "images/items/MegaTimeshard_16.png",
+        "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
       }
     ]
   },
@@ -201,6 +208,25 @@
                     "map": "searing_crags_map",
                     "x": 629,
                     "y": 166
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "visibility_rules": ["shuffled_shards"],
+            "children": [
+              {
+                "sections": [
+                  {
+                    "ref": "Searing Crags/Searing Crags Mega Shard"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "searing_crags_map",
+                    "x": 550,
+                    "y": 550
                   }
                 ]
               }

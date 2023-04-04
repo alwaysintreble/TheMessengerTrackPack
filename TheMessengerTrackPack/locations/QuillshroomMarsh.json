@@ -30,8 +30,8 @@
       },
       {
         "name": "Queen of Quills",
-        "chest_unopened_img": "images/items/QueenOfQuills8_Idle_0.png",
-        "chest_opened_img": "images/items/QueenOfQuills8_Idle_0BW.png"
+        "chest_unopened_img": "images/QueenOfQuills8_Idle_0.png",
+        "chest_opened_img": "images/QueenOfQuills8_Idle_0BW.png"
       }
     ],
     "map_locations": [

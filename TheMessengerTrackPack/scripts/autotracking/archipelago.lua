@@ -90,6 +90,13 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data["settings"] then
+        if slot_data["settings"]["Mega Shards"] then
+            Tracker:FindObjectForCode("shuffled_shards").Active = slot_data["settings"]["Mega Shards"]
+        end
+    end
+    
+    Tracker:FindObjectForCode("auto_tab").Active = true
     Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":CurrentRegion"})
 end
 
@@ -161,14 +168,16 @@ function onLocation(location_id, location_name)
 end
 
 function onChangedRegion(key, current_region, old_region)
-    if TABS_MAPPING[current_region] then
-        CURRENT_ROOM = TABS_MAPPING[current_region]
-    else
-        CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+    if Tracker:FindObjectForCode("auto_tab").Active then
+        if TABS_MAPPING[current_region] then
+            CURRENT_ROOM = TABS_MAPPING[current_region]
+        else
+            CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+        end
+        print(CURRENT_ROOM)
+        Tracker:UiHint("ActivateTab", CURRENT_ROOM)
     end
-    print(CURRENT_ROOM)
-    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-    end
+end
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)

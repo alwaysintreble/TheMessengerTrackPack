@@ -45,8 +45,8 @@
       },
       {
         "name": "Ruxxtin",
-        "chest_unopened_img": "images/items/Necromancer_8_11.png",
-        "chest_opened_img": "images/items/Necromancer_8_11BW.png"
+        "chest_unopened_img": "images/Necromancer_8_11.png",
+        "chest_opened_img": "images/Necromancer_8_11BW.png"
       }
     ]
   },

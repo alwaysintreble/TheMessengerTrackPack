@@ -46,8 +46,9 @@
       },
       {
         "name": "Emerald Golem",
-        "chest_unopened_img": "images/items/EmeraldBossIcon.png",
-        "chest_opened_img": "images/items/EmeraldBossIconBW.png"
+        "access_rules": ["wingsuit", "oob"],
+        "chest_unopened_img": "images/EmeraldBossIcon.png",
+        "chest_opened_img": "images/EmeraldBossIconBW.png"
       }
     ],
     "map_locations": [

@@ -46,20 +46,20 @@
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       },
       {
-        "name": "Cloud Entrance Mega Shard",
+        "name": "Time Warp Mega Shard",
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       },
       {
-        "name": "Cloud Entrance Mega Shard",
+        "name": "Money Farm Room Mega Shard 1",
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
         "access_rules": ["wingsuit"]
       },
       {
-        "name": "Cloud Entrance Mega Shard",
+        "name": "Money Farm Room Mega Shard 2",
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",

@@ -26,19 +26,19 @@
       },
       {
         "name": "Above Entrance Mega Shard",
-        "visibility_rules": ["shuffled_mega_shards"],
+        "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_16.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
       },
       {
         "name": "Abandoned Mega Shard",
-        "visibility_rules": ["shuffled_mega_shards"],
+        "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       },
       {
         "name": "Time Loop Mega Shard",
-        "visibility_rules": ["shuffled_mega_shards"],
+        "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       }
