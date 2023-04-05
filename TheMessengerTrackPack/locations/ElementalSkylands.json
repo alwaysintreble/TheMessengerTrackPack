@@ -148,7 +148,7 @@
           {
             "map": "elemental_skylands_map",
             "x": 500,
-            "y": 250
+            "y": 251
           }
         ]
       },
@@ -162,8 +162,8 @@
         "map_locations": [
           {
             "map": "elemental_skylands_map",
-            "x": 900,
-            "y": 125
+            "x": 902,
+            "y": 124
           }
         ]
       }

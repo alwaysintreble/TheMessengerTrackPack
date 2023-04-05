@@ -19,18 +19,19 @@
       },
       {
         "name": "Glacial Peak Seal - Projectile Spike Pit",
-        "access_rules": ["wingsuit", "grapplou", "[hard]", "challenging", "oob"],
+        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Glacial Peak Seal - Glacial Air Swag",
-        "access_rules": ["wingsuit", "grapplou", "windmill, [hard]", "windmill, challenging", "oob"],
+        "access_rules": ["$vertical", "windmill, [hard]", "windmill, challenging", "oob"],
         "visibility_rules": ["shuffled_power_seals"],
         "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png"
       },
       {
         "name": "Glacial Peak Mega Shard",
+        "access_rules": ["$vertical", "[oob]"],
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"

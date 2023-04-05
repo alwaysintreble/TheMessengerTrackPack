@@ -158,7 +158,7 @@
             ],
             "map_locations": [
               {
-                "map": "riviere turquoise map",
+                "map": "riviere_turquoise_map",
                 "x": 1430,
                 "y": 450
               }
@@ -173,7 +173,7 @@
             ],
             "map_locations": [
               {
-                "map": "riviere turquoise map",
+                "map": "riviere_turquoise_map",
                 "x": 1335,
                 "y": 275
               }

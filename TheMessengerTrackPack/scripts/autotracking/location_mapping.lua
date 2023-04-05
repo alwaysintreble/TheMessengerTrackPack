@@ -99,9 +99,9 @@ LOCATIONS = {
     { "@Elemental Skylands/Earth Mega Shard" },
     { "@Elemental Skylands/Water Mega Shard" },
     { "@Autumn Hills/Leaf Golem" },
-    { "@Autumn Hills/Ruxxtin" },
-    { "@Autumn Hills/Emerald Golem" },
-    { "@Autumn Hills/Queen of Quills" }
+    { "@Catacombs/Ruxxtin" },
+    { "@Howling Grotto/Emerald Golem" },
+    { "@Quillshroom Marsh/Queen of Quills" }
 }
 
 LOCATIONS_MAPPING = {}
