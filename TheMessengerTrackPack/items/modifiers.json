@@ -74,14 +74,32 @@
   },
   {
     "name": "Auto Tab Switching",
-    "type": "toggle",
+    "type": "progressive",
     "codes": "auto_tab",
-    "img": "images/Icon_Scroll.png"
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/Icon_ScrollBW.png"
+      },
+      {
+        "img": "images/Icon_Scroll.png",
+        "codes": "auto_tab"
+      }
+    ]
   },
   {
     "name": "Mega Time Shards",
-    "type": "toggle",
-    "codes": "shuffled_shards",
-    "img": "images/items/MegaTimeshard_16.png"
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/MegaTimeshard_Shattered_16.png"
+      },
+      {
+        "img": "images/items/MegaTimeshard_16.png",
+        "codes": "shuffled_shards"
+      }
+    ]
   }
 ]

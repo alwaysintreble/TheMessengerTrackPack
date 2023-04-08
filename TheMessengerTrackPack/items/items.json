@@ -151,42 +151,36 @@
   {
     "name": "Cloudstep",
     "type": "toggle",
-    "allow_disabled": false,
     "img": "images/items/Icon_CloudStep.png",
     "codes": "cloudstep"
   },
   {
     "name": "Strike of the Ninja",
     "type": "toggle",
-    "allow_disabled": false,
     "img": "images/items/Icon_AttackProjectile.png",
     "codes": "attack_projectile"
   },
   {
     "name": "Second wind",
     "type": "toggle",
-    "allow_disabled": false,
     "img": "images/items/Icon_AirRecover.png",
     "codes": "air_recover"
   },
   {
     "name": "Currents master",
     "type": "toggle",
-    "allow_disabled": false,
     "img": "images/items/Icon_SwimDash.png",
     "codes": "swim_dash"
   },
   {
     "name": "Aerobatics warrior",
     "type": "toggle",
-    "allow_disabled": false,
     "img": "images/items/Icon_GlideAttack.png",
     "codes": "glide_attack"
   },
   {
     "name": "Demon's bane",
     "type": "toggle",
-    "allow_disabled": false,
     "img": "images/items/Icon_PowerAttack.png",
     "codes": "power_attack"
   },
@@ -204,8 +198,8 @@
     "img": "images/items/CoinIcon.png",
     "codes": "time_shard",
     "overlay_background": "#000000",
-    "max_quantity": 9999,
-    "increment": 69
+    "max_quantity": 99999,
+    "increment": 100
   },
   {
     "name": "Necro",
