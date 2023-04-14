@@ -1,7 +1,9 @@
 ﻿[
   {
     "name": "Elemental Skylands",
-    "access_rules": ["fairy_bottle, $vertical", "$vertical, oob", "fairy_bottle, oob"],
+    "access_rules": ["fairy_bottle, $vertical", "grapplou, [hard]", "windmill, [hard]", "fairy_bottle, [hard]",
+      "$vertical, challenge", "fairy_bottle, challgen", "windmill, challenge", "$vertical, oob", "windmill, oob",
+      "fairy_bottle, oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -17,7 +19,7 @@
         "name": "Key of Symbiosis",
         "chest_unopened_img": "images/items/Note_Symbiosis.png",
         "chest_opened_img": "images/items/Note_SymbiosisBW.png",
-        "access_rules": ["$vertical, [challenge]", "windmill, [challenge]", "oob"]
+        "access_rules": ["grapplou","windmill, [challenge]", "oob"]
       },
       {
         "name": "Elemental Skylands Seal - Air",
