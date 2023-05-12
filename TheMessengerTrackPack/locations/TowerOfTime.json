@@ -51,8 +51,7 @@
         "sections": [
           {
             "ref": "Tower of Time/Tower of Time Seal - Lantern Climb",
-            "name": "Lantern Climb",
-            "access_rules": ["wingsuit"]
+            "name": "Lantern Climb"
           }
         ],
         "map_locations": [
@@ -68,8 +67,7 @@
         "sections": [
           {
             "ref": "Tower of Time/Tower of Time Seal - Arcane Orbs",
-            "name": "Arcane Orbs",
-            "access_rules": ["wingsuit, grapplou"]
+            "name": "Arcane Orbs"
           }
         ],
         "map_locations": [

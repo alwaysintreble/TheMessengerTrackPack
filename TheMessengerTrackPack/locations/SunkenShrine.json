@@ -104,8 +104,7 @@
         "sections": [
           {
             "ref": "Sunken Shrine/Sun Crest",
-            "name": "Sun Crest",
-            "access_rules": ["lightfoot_tabi"]
+            "name": "Sun Crest"
           }
         ],
         "map_locations": [
@@ -120,8 +119,7 @@
         "sections": [
           {
             "ref": "Sunken Shrine/Moon Crest",
-            "name": "Moon Crest",
-            "access_rules": ["lightfoot_tabi"]
+            "name": "Moon Crest"
           }
         ],
         "map_locations": [
@@ -136,8 +134,7 @@
         "sections": [
           {
             "ref": "Sunken Shrine/Key of Love",
-            "name": "Key of Love",
-            "access_rules": ["sun_crest, moon_crest"]
+            "name": "Key of Love"
           }
         ],
         "map_locations": [
@@ -173,8 +170,7 @@
             "sections": [
               {
                 "ref": "Sunken Shrine/Sunken Shrine Seal - Waterfall Paradise",
-                "name": "Waterfall Paradise",
-                "access_rules": ["lightfoot_tabi"]
+                "name": "Waterfall Paradise"
               }
             ],
             "map_locations": [
@@ -191,8 +187,7 @@
             "sections": [
               {
                 "ref": "Sunken Shrine/Sunken Shrine Seal - Tabi Gauntlet",
-                "name": "Tabi Gauntlet",
-                "access_rules": ["lightfoot_tabi"]
+                "name": "Tabi Gauntlet"
               }
             ],
             "map_locations": [

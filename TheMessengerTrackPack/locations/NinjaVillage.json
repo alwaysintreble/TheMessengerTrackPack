@@ -32,7 +32,6 @@
   },
   // Ninja Village Map items
   {
-    "access_rules": ["wingsuit"],
     "item_count": 1,
     "children": [
       {
@@ -72,7 +71,6 @@
     ]
   },
   {
-    "access_rules": ["grapplou"],
     "visibility_rules": ["shuffled_power_seals"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",

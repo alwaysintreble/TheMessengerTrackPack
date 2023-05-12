@@ -117,8 +117,7 @@
             "sections": [
               {
                 "ref": "Howling Grotto/Howling Grotto Seal - Crushing Pits",
-                "name": "Crushing Pits",
-                "access_rules": ["wingsuit, grapplou"]
+                "name": "Crushing Pits"
               }
             ],
             "map_locations": [

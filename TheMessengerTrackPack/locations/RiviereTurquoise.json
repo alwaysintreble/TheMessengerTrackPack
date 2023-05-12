@@ -62,8 +62,7 @@
         "sections": [
           {
             "ref": "Riviere Turquoise/Fairy Bottle",
-            "name": "Fairy Bottle",
-            "access_rules": ["$vertical"]
+            "name": "Fairy Bottle"
           }
         ],
         "map_locations": [
@@ -115,8 +114,7 @@
             "sections": [
               {
                 "ref": "Riviere Turquoise/Riviere Turquoise Seal - Flower Power",
-                "name": "Flower Power",
-                "access_rules": ["$vertical"]
+                "name": "Flower Power"
               }
             ],
             "map_locations": [

@@ -47,7 +47,6 @@
     ]
   },
   {
-    "access_rules": ["necro, pyro, claustro, acro, wingsuit"],
     "chest_unopened_img": "images/items/Icon_DemonCrown.png",
     "chest_opened_img": "images/items/Icon_DemonCrownBW.png",
     "item_count": 1,

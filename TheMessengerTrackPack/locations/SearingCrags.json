@@ -95,7 +95,6 @@
           {
             "ref": "Searing Crags/Pyro",
             "name": "Pyro",
-            "access_rules": ["lightfoot_tabi"],
             "chest_unopened_img": "images/items/Icon_Pyro.png",
             "chest_opened_img": "images/items/Icon_PyroBW.png"
           }
@@ -110,7 +109,6 @@
         ]
       },
       {
-        "access_rules": ["$vertical"],
         "children": [
           {
             "sections": [
@@ -132,8 +130,7 @@
             "sections": [
               {
                 "ref": "Searing Crags/Key of Strength",
-                "name": "Key of Strength",
-                "access_rules": ["power_thistle"]
+                "name": "Key of Strength"
               }
             ],
             "map_locations": [

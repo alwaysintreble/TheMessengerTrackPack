@@ -76,7 +76,6 @@
         "children": [
           {
             "name": "Elemental Skylands Seal",
-            "access_rules": ["wingsuit"],
             "sections": [
               {
                 "ref": "Elemental Skylands/Elemental Skylands Seal - Air",
@@ -93,7 +92,6 @@
           },
           {
             "name": "Elemental Skylands Seal",
-            "access_rules": ["grapplou"],
             "children": [
               {
                 "name": "Elemental Skylands Seal",
