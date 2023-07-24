@@ -25,8 +25,9 @@
     "map_locations": [
       {
         "map": "messenger_map",
-        "x": 70,
-        "y": 160
+        "x": 144,
+        "y": 340,
+        "size": 30
       }
     ]
   },

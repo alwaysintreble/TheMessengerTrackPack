@@ -7,8 +7,9 @@
     "map_locations": [
       {
         "map": "messenger_map",
-        "x": 360,
-        "y": 60
+        "x": 780,
+        "y": 126,
+        "size": 30
       }
     ],
     "sections": [

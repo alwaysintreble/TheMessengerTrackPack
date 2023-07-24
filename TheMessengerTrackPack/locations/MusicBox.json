@@ -12,8 +12,9 @@
     "map_locations": [
       {
         "map": "messenger_map",
-        "x": "140",
-        "y": 60
+        "x": 180,
+        "y": 144,
+        "size": 30
       }
     ],
     "sections": [
