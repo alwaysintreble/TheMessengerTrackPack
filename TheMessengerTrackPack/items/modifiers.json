@@ -57,13 +57,8 @@
       },
       {
         "name": "Hard Logic",
-        "img": "images/playerKoalaPlaceholder.png",
-        "codes": "hard"
-      },
-      {
-        "name": "Challenging Logic",
         "img": "images/Player16_GameOver_0.png",
-        "codes": "challenging"
+        "codes": "hard"
       },
       {
         "name": "Out of Bounds Logic",
@@ -77,6 +72,7 @@
     "type": "progressive",
     "codes": "auto_tab",
     "loop": true,
+    "allow_disabled": false,
     "initial_stage_idx": 1,
     "stages": [
       {
@@ -92,6 +88,8 @@
     "name": "Mega Time Shards",
     "type": "progressive",
     "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/items/MegaTimeshard_Shattered_16.png"
