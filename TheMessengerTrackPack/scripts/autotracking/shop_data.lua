@@ -52,4 +52,60 @@ PREREQS = {
     ["Power Sense"] = "Time Sense",
     ["Focused Power Sense"] = "Power Sense",
 }
-print("shop data loaded!")
+
+MAX_PRICES = {
+    { "Karuta Plates", 200 },
+    { "Serendipitous Bodies", 300 },
+    { "Path of Resilience", 500 },
+    { "Kusari Jacket", 500 },
+    { "Energy Shuriken", 200 },
+    { "Serendipitous Minds", 300 },
+    { "Prepared Mind", 600 },
+    { "Meditation", 600 },
+    { "Rejuvenative Spirit", 800 },
+    { "Centered Mind", 800 },
+    { "Strike of the Ninja", 200 },
+    { "Second Wind", 350 },
+    { "Currents Master", 600 },
+    { "Aerobatics Warrior", 800 },
+    { "Demon's Bane", 1000 },
+    { "Devil's Due", 200 },
+    { "Time Sense", 300 },
+    { "Power Sense", 800 },
+    { "Focused Power Sense", 600 }
+}
+
+MAX_FIGURINE_PRICES = {
+    ["Green Kappa Figurine"] = 500,
+    ["Blue Kappa Figurine"] = 500,
+    ["Ountarde Figurine"] = 500,
+    ["Red Kappa Figurine"] = 500,
+    ["Demon King Figurine"] = 2000,
+    ["Quillshroom Figurine"] = 500,
+    ["Jumping Quillshroom Figurine"] = 500,
+    ["Scurubu Figurine"] = 500,
+    ["Jumping Scurubu Figurine"] = 500,
+    ["Wallaxer Figurine"] = 500,
+    ["Barmath'azel Figurine"] = 2000,
+    ["Queen of Quills Figurine"] = 1000,
+    ["Demon Hive Figurine"] = 500
+}
+
+function adjust_display_costs()
+    local obj
+    for k, v in pairs(SHOP_PRICES) do
+        obj = Tracker:FindObjectForCode(string.format("@The Shop/%s", k))
+        if not obj then
+            obj = Tracker:FindObjectForCode(string.format("@Figurines/%s", k))
+        end
+        if obj and not obj == v then
+            obj.ChestCount = obj.ChestCount - (obj.ChestCount - v)
+        end
+    end
+    for k, v in pairs(FIGURE_PRICES) do
+        obj = Tracker:FindObjectForCode(string.format("@Figurines/%s", k))
+        if obj and not obj == v then
+            obj.ChestCount = obj.ChestCount - (obj.ChestCount - v)
+        end
+    end
+end

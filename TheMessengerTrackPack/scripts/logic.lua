@@ -33,6 +33,7 @@ function cost(location)
     end
     return price
 end
+
 function adjust_cost(location, price)
     if not price then
         price = FIGURE_PRICES[location]

@@ -7,83 +7,103 @@
         "sections": [
           {
             "name": "Karuta Plates",
-            "access_rules": ["$can_afford|Karuta Plates"]
+            "access_rules": ["$can_afford|Karuta Plates"],
+            "item_count": 200
           },
           {
             "name": "Serendipitous Bodies",
-            "access_rules": ["$can_afford|Serendipitous Bodies"]
+            "access_rules": ["$can_afford|Serendipitous Bodies"],
+            "item_count": 300
           },
           {
             "name": "Path of Resilience",
-            "access_rules": ["$can_afford|Path of Resilience"]
+            "access_rules": ["$can_afford|Path of Resilience"],
+            "item_count": 500
           },
           {
             "name": "Kusari Jacket",
-            "access_rules": ["$can_afford|Kusari Jacket"]
+            "access_rules": ["$can_afford|Kusari Jacket"],
+            "item_count": 500
           },
           {
             "name": "Energy Shuriken",
-            "access_rules": ["$can_afford|Energy Shuriken"]
+            "access_rules": ["$can_afford|Energy Shuriken"],
+            "item_count": 200
           },
           {
             "name": "Serendipitous Minds",
-            "access_rules": ["$can_afford|Serendipitous Minds"]
+            "access_rules": ["$can_afford|Serendipitous Minds"],
+            "item_count": 300
           },
           {
             "name": "Prepared Mind",
-            "access_rules": ["$can_afford|Prepared Mind"]
+            "access_rules": ["$can_afford|Prepared Mind"],
+            "item_count": 600
           },
           {
             "name": "Meditation",
-            "access_rules": ["$can_afford|Meditation"]
+            "access_rules": ["$can_afford|Meditation"],
+            "item_count": 600
           },
           {
             "name": "Rejuvenative Spirit",
-            "access_rules": ["$can_afford|Rejuvenative Spirit"]
+            "access_rules": ["$can_afford|Rejuvenative Spirit"],
+            "item_count": 800
           },
           {
             "name": "Centered Mind",
-            "access_rules": ["$can_afford|Centered Mind"]
+            "access_rules": ["$can_afford|Centered Mind"],
+            "item_count": 800
           },
           {
             "name": "Strike of the Ninja",
-            "access_rules": ["$can_afford|Strike of the Ninja"]
+            "access_rules": ["$can_afford|Strike of the Ninja"],
+            "item_count": 200
           },
           {
             "name": "Second Wind",
-            "access_rules": ["$can_afford|Second Wind"]
+            "access_rules": ["$can_afford|Second Wind"],
+            "item_count": 350
           },
           {
             "name": "Currents Master",
-            "access_rules": ["$can_afford|Currents Master"]
+            "access_rules": ["$can_afford|Currents Master"],
+            "item_count": 600
           },
           {
             "name": "Aerobatics Warrior",
-            "access_rules": ["$can_afford|Aerobatics Warrior"]
+            "access_rules": ["$can_afford|Aerobatics Warrior"],
+            "item_count": 800
           },
           {
             "name": "Demon's Bane",
-            "access_rules": ["$can_afford|Demon's Bane"]
+            "access_rules": ["$can_afford|Demon's Bane"],
+            "item_count": 1000
           },
           {
             "name": "Devil's Due",
-            "access_rules": ["$can_afford|Devil's Due"]
+            "access_rules": ["$can_afford|Devil's Due"],
+            "item_count": 200
           },
           {
             "name": "Time Sense",
-            "access_rules": ["$can_afford|Time Sense"]
+            "access_rules": ["$can_afford|Time Sense"],
+            "item_count": 300
           },
           {
             "name": "Power Sense",
-            "access_rules": ["$can_afford|Power Sense"]
+            "access_rules": ["$can_afford|Power Sense"],
+            "item_count": 800
           },
           {
             "name": "Focused Power Sense",
-            "access_rules": ["$can_afford|Focused Power Sense"]
+            "access_rules": ["$can_afford|Focused Power Sense"],
+            "item_count": 600
           },
           {
             "name": "Money Wrench",
-            "access_rules": ["$can_afford|Demon's Bane, $can_afford|Focused Power Sense"]
+            "access_rules": ["$can_afford|Demon's Bane, $can_afford|Focused Power Sense"],
+            "item_count": 200
           }
         ]
       }
@@ -93,7 +113,6 @@
     "name": "The Shop",
     "sections": [
       {
-        "item_count": "$cost|Karuta Plates",
         "ref": "The Shop/Karuta Plates",
         "name": "Karuta Plates"
       }
@@ -423,55 +442,68 @@
     "sections": [
       {
         "name": "Green Kappa Figurine",
-        "access_rules": ["$can_afford|Green Kappa Figurine"]
+        "access_rules": ["$can_afford|Green Kappa Figurine"],
+        "item_count": 500
       },
       {
         "name": "Blue Kappa Figurine",
-        "access_rules": ["$can_afford|Blue Kappa Figurine"]
+        "access_rules": ["$can_afford|Blue Kappa Figurine"],
+        "item_count": 500
       },
       {
         "name": "Ountarde Figurine",
-        "access_rules": ["$can_afford|Ountarde Figurine"]
+        "access_rules": ["$can_afford|Ountarde Figurine"],
+        "item_count": 500
       },
       {
         "name": "Red Kappa Figurine",
-        "access_rules": ["$can_afford|Red Kappa Figurine"]
+        "access_rules": ["$can_afford|Red Kappa Figurine"],
+        "item_count": 500
       },
       {
         "name": "Demon King Figurine",
-        "access_rules": ["$can_afford|Demon King Figurine"]
+        "access_rules": ["$can_afford|Demon King Figurine"],
+        "item_count": 2000
       },
       {
         "name": "Quillshroom Figurine",
-        "access_rules": ["$can_afford|Quillshroom Figurine"]
+        "access_rules": ["$can_afford|Quillshroom Figurine"],
+        "item_count": 500
       },
       {
         "name": "Jumping Quillshroom Figurine",
-        "access_rules": ["$can_afford|Jumping Quillshroom Figurine"]
+        "access_rules": ["$can_afford|Jumping Quillshroom Figurine"],
+        "item_count": 500
       },
       {
         "name": "Scurubu Figurine",
-        "access_rules": ["$can_afford|Scurubu Figurine"]
+        "access_rules": ["$can_afford|Scurubu Figurine"],
+        "item_count": 500
       },
       {
         "name": "Jumping Scurubu Figurine",
-        "access_rules": ["$can_afford|Jumping Scurubu Figurine"]
+        "access_rules": ["$can_afford|Jumping Scurubu Figurine"],
+        "item_count": 500
       },
       {
         "name": "Wallaxer Figurine",
-        "access_rules": ["$can_afford|Wallaxer Figurine"]
+        "access_rules": ["$can_afford|Wallaxer Figurine"],
+        "item_count": 500
       },
       {
         "name": "Barmath'azel Figurine",
-        "access_rules": ["$can_afford|Barmath'azel Figurine"]
+        "access_rules": ["$can_afford|Barmath'azel Figurine"],
+        "item_count": 2000
       },
       {
         "name": "Queen of Quills Figurine",
-        "access_rules": ["$can_afford|Queen of Quills Figurine"]
+        "access_rules": ["$can_afford|Queen of Quills Figurine"],
+        "item_count": 1000
       },
       {
         "name": "Demon Hive Figurine",
-        "access_rules": ["$can_afford|Demon Hive Figurine"]
+        "access_rules": ["$can_afford|Demon Hive Figurine"],
+        "item_count": 500
       }
     ]
   }

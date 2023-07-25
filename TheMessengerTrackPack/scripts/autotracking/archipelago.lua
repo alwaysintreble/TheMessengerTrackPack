@@ -104,27 +104,26 @@ function onClear(slot_data)
         for k, v in ipairs(SHOP_DATA) do
             SHOP_PRICES[k] = {v[2], slot_data["shop"][v[1]]}
         end
-        for _, v in ipairs(SHOP_PRICES) do
-            ADJUSTED_PRICES[v[1]] = adjust_cost(v[1], v[2])
-        end
         for _, v in ipairs(FIGURINE_DATA) do
             FIGURE_PRICES[v[2]] = slot_data["figures"][v[1]]
+        end
+        for _, v in ipairs(SHOP_PRICES) do
+            ADJUSTED_PRICES[v[1]] = adjust_cost(v[1], v[2])
         end
         for k, _ in pairs(FIGURE_PRICES) do
             ADJUSTED_PRICES[k] = adjust_cost(k)
         end
     end
-
+    
     if slot_data["max_price"] then
         MAX_PRICE = slot_data["max_price"]
     end
-
+    
+    --adjust_display_costs()
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
     Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":CurrentRegion"})
 
     Tracker:FindObjectForCode("shuffled_power_seals").CurrentStage = shuffled_seals()
-    --if PopVersion > "0.25.1" then
-    --end
 end
 
 function shuffled_seals()
@@ -226,11 +225,23 @@ function onChangedRegion(key, current_region, old_region)
         else
             CURRENT_ROOM = CURRENT_ROOM_ADDRESS
         end
-        print(CURRENT_ROOM)
         Tracker:UiHint("ActivateTab", CURRENT_ROOM)
     end
 end
 
+function setup_default_shops()
+    SHOP_PRICES = MAX_PRICES
+    FIGURE_PRICES = MAX_FIGURINE_PRICES
+
+    for _, v in ipairs(SHOP_PRICES) do
+    ADJUSTED_PRICES[v[1]] = adjust_cost(v[1], v[2])
+    end
+    for k, _ in pairs(FIGURE_PRICES) do
+    ADJUSTED_PRICES[k] = adjust_cost(k)
+    end
+end
+
+setup_default_shops()
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
