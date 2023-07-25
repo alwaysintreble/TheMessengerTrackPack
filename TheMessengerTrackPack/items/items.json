@@ -135,12 +135,6 @@
     "codes": "fairy_bottle"
   },
   {
-    "name": "Money Wrench",
-    "type": "toggle",
-    "img": "",
-    "codes": "money_wrench"
-  },
-  {
     "name": "Sun Crest",
     "type": "toggle",
     "img": "images/items/Icon_SunCrest.png",
@@ -155,11 +149,10 @@
     "codes": "moon_crest"
   },
   {
-    "name": "Cloudstep",
+    "name": "Money Wrench",
     "type": "toggle",
-    "allow_disabled": false,
-    "img": "images/items/Icon_CloudStep.png",
-    "codes": "cloudstep"
+    "img": "images/items/Icon_MoneySinkReward.png",
+    "codes": "money_wrench"
   },
   {
     "name": "Strike of the Ninja",
@@ -174,6 +167,12 @@
     "codes": "second_wind"
   },
   {
+    "name": "Path of Resilience",
+    "type": "toggle",
+    "img": "images/items/Icon_PathOfResilience.png",
+    "codes": "path_of_resilience"
+  },
+  {
     "name": "Currents master",
     "type": "toggle",
     "img": "images/items/Icon_SwimDash.png",
@@ -186,10 +185,10 @@
     "codes": "aerobatics_warrior"
   },
   {
-    "name": "Demon's bane",
+    "name": "Meditation",
     "type": "toggle",
-    "img": "images/items/Icon_PowerAttack.png",
-    "codes": "demons_bane"
+    "img": "images/items/Icon_Meditation.png",
+    "codes": "meditation"
   },
   {
     "name": "Power Seal",

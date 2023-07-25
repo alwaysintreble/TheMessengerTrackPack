@@ -32,9 +32,9 @@
                         "fairy_bottle"
                     ],
                     [
-                        "money_wrench",
                         "sun_crest",
-                        "moon_crest"
+                        "moon_crest",
+                        "money_wrench"
                     ]
                 ]
             }
@@ -51,14 +51,14 @@
                 "item_margin": "4,4",
                 "rows": [
                     [
-                        "cloudstep",
                         "strike_of_the_ninja",
-                        "second_wind"
+                        "second_wind",
+                        "path_of_resilience"
                     ],
                     [
                         "currents_master",
                         "aerobatics_warrior",
-                        "demons_bane"
+                        "meditation"
                     ]
                 ]
             }
