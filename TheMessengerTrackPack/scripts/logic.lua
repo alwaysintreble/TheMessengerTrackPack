@@ -22,21 +22,25 @@ function open_store_chest()
     return has("power_seal", requiredSeals)
 end
 
-function cost(location, price)
+function cost(location)
+    local price = SHOP_PRICES[location]
+    if not price then
+        price = FIGURE_PRICES[location]
+    end
+    return price
+end
+function adjust_cost(location, price)
     if not price then
         price = FIGURE_PRICES[location]
         if not price then
             return ADJUSTED_PRICES[location]
         end
-        price = price + cost("Demon's Bane") + cost("Focused Power Sense")
+        price = price + adjust_cost("Demon's Bane") + adjust_cost("Focused Power Sense")
     elseif PREREQS[location] then
-        print(PREREQS[location])
-        print(type(PREREQS[location]))
         if type(PREREQS[location]) == "string" then
             price = price + ADJUSTED_PRICES[PREREQS[location]]
         else
             for _, i in ipairs(PREREQS[location]) do
-                print(i)
                 price = price + ADJUSTED_PRICES[i]
             end
         end

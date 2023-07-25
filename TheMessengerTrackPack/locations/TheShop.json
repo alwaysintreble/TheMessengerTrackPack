@@ -1,307 +1,412 @@
 ﻿[
   {
-    "name": "The Shop",
-    "item_count": 1,
     "children": [
       {
-        "name": "Karuta Plates",
-        "map_locations": [
-          {
-            "map": "messenger_map",
-            "x": 397,
-            "y": 182
-          }
-        ],
+        "name": "The Shop",
+        "clear_as_group": true,
         "sections": [
           {
+            "name": "Karuta Plates",
             "access_rules": ["$can_afford|Karuta Plates"]
-          }
-        ]
-      },
-      {
-        "name": "Serendipitous Bodies",
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 397,
-            "y": 145
-          }
-        ],
-        "sections": [
-          {
+            "name": "Serendipitous Bodies",
             "access_rules": ["$can_afford|Serendipitous Bodies"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 375,
-            "y": 125
-          }
-        ],
-        "name": "Path of Resilience",
-        "sections": [
-          {
+            "name": "Path of Resilience",
             "access_rules": ["$can_afford|Path of Resilience"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 417,
-            "y": 126
-          }
-        ],
-        "name": "Kusari Jacket",
-        "sections": [
-          {
+            "name": "Kusari Jacket",
             "access_rules": ["$can_afford|Kusari Jacket"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 462,
-            "y": 182
-          }
-        ],
-        "name": "Energy Shuriken",
-        "sections": [
-          {
+            "name": "Energy Shuriken",
             "access_rules": ["$can_afford|Energy Shuriken"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 462,
-            "y": 152
-          }
-        ],
-        "name": "Serendipitous Minds",
-        "sections": [
-          {
+            "name": "Serendipitous Minds",
             "access_rules": ["$can_afford|Serendipitous Minds"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 462,
-            "y": 127
-          }
-        ],
-        "name": "Prepared Mind",
-        "sections": [
-          {
+            "name": "Prepared Mind",
             "access_rules": ["$can_afford|Prepared Mind"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 440,
-            "y": 110
-          }
-        ],
-        "name": "Meditation",
-        "sections": [
-          {
+            "name": "Meditation",
             "access_rules": ["$can_afford|Meditation"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 417,
-            "y": 90
-          }
-        ],
-        "name": "Rejuvenative Spirit",
-        "sections": [
-          {
+            "name": "Rejuvenative Spirit",
             "access_rules": ["$can_afford|Rejuvenative Spirit"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 462,
-            "y": 90
-          }
-        ],
-        "name": "Centered Mind",
-        "sections": [
-          {
+            "name": "Centered Mind",
             "access_rules": ["$can_afford|Centered Mind"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 498,
-            "y": 182
-          }
-        ],
-        "name": "Strike of the Ninja",
-        "sections": [
-          {
+            "name": "Strike of the Ninja",
             "access_rules": ["$can_afford|Strike of the Ninja"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 498,
-            "y": 152
-          }
-        ],
-        "name": "Second Wind",
-        "sections": [
-          {
+            "name": "Second Wind",
             "access_rules": ["$can_afford|Second Wind"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 498,
-            "y": 127
-          }
-        ],
-        "name": "Currents Master",
-        "sections": [
-          {
+            "name": "Currents Master",
             "access_rules": ["$can_afford|Currents Master"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 498,
-            "y": 90
-          }
-        ],
-        "name": "Aerobatics Warrior",
-        "sections": [
-          {
+            "name": "Aerobatics Warrior",
             "access_rules": ["$can_afford|Aerobatics Warrior"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 462,
-            "y": 57
-          }
-        ],
-        "name": "Demon's Bane",
-        "sections": [
-          {
+            "name": "Demon's Bane",
             "access_rules": ["$can_afford|Demon's Bane"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 532,
-            "y": 182
-          }
-        ],
-        "name": "Devil's Due",
-        "sections": [
-          {
+            "name": "Devil's Due",
             "access_rules": ["$can_afford|Devil's Due"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 532,
-            "y": 152
-          }
-        ],
-        "name": "Time Sense",
-        "sections": [
-          {
+            "name": "Time Sense",
             "access_rules": ["$can_afford|Time Sense"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 532,
-            "y": 127
-          }
-        ],
-        "name": "Power Sense",
-        "sections": [
-          {
+            "name": "Power Sense",
             "access_rules": ["$can_afford|Power Sense"]
-          }
-        ]
-      },
-      {
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 532,
-            "y": 90
-          }
-        ],
-        "name": "Focused Power Sense",
-        "sections": [
-          {
+            "name": "Focused Power Sense",
             "access_rules": ["$can_afford|Focused Power Sense"]
-          }
-        ]
-      },
-      {
-        "name": "Money Wrench",
-        "map_locations": [
+          },
           {
-            "map": "messenger_map",
-            "x": 530,
-            "y": 57
-          }
-        ],
-        "sections": [
-          {
+            "name": "Money Wrench",
             "access_rules": ["$can_afford|Demon's Bane, $can_afford|Focused Power Sense"]
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "sections": [
+      {
+        "item_count": "$cost|Karuta Plates",
+        "ref": "The Shop/Karuta Plates",
+        "name": "Karuta Plates"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 397,
+        "y": 182
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 397,
+        "y": 145
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Serendipitous Bodies",
+        "name": "Serendipitous Bodies"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 375,
+        "y": 125
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Path of Resilience",
+        "name": "Path of Resilience"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 417,
+        "y": 126
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Kusari Jacket",
+        "name": "Kusari Jacket"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 462,
+        "y": 182
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Energy Shuriken",
+        "name": "Energy Shuriken"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 462,
+        "y": 152
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Serendipitous Minds",
+        "name": "Serendipitous Minds"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 462,
+        "y": 127
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Prepared Mind",
+        "name": "Prepared Mind"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 440,
+        "y": 110
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Meditation",
+        "name": "Meditation"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 417,
+        "y": 90
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Rejuvenative Spirit",
+        "name": "Rejuvenative Spirit"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 462,
+        "y": 90
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Centered Mind",
+        "name": "Centered Mind"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 498,
+        "y": 182
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Strike of the Ninja",
+        "name": "Strike of the Ninja"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 498,
+        "y": 152
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Second Wind",
+        "name": "Second Wind"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 498,
+        "y": 127
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Currents Master",
+        "name": "Currents Master"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 498,
+        "y": 90
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Aerobatics Warrior",
+        "name": "Aerobatics Warrior"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 462,
+        "y": 57
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Demon's Bane",
+        "name": "Demon's Bane"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 532,
+        "y": 182
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Devil's Due",
+        "name": "Devil's Due"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 532,
+        "y": 152
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Time Sense",
+        "name": "Time Sense"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 532,
+        "y": 127
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Power Sense",
+        "name": "Power Sense"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 532,
+        "y": 90
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Focused Power Sense",
+        "name": "Focused Power Sense"
+      }
+    ]
+  },
+  {
+    "name": "The Shop",
+    "map_locations": [
+      {
+        "map": "messenger_map",
+        "x": 530,
+        "y": 57
+      }
+    ],
+    "sections": [
+      {
+        "ref": "The Shop/Money Wrench",
+        "name": "Money Wrench"
       }
     ]
   },

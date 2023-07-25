@@ -101,29 +101,22 @@ function onClear(slot_data)
     end
 
     if slot_data["shop"] then
-        print("checking shop data")
         for k, v in ipairs(SHOP_DATA) do
-            print(string.format("%s, %s", v[1], v[2]))
             SHOP_PRICES[k] = {v[2], slot_data["shop"][v[1]]}
         end
         for _, v in ipairs(SHOP_PRICES) do
-            print(string.format("%s: %s", v[1], v[2]))
-            ADJUSTED_PRICES[v[1]] = cost(v[1], v[2])
-            print(string.format("%s: %s", v[1], ADJUSTED_PRICES[v[1]]))
+            ADJUSTED_PRICES[v[1]] = adjust_cost(v[1], v[2])
         end
         for _, v in ipairs(FIGURINE_DATA) do
-            print(string.format("%s: %s", v[1], v[2]))
             FIGURE_PRICES[v[2]] = slot_data["figures"][v[1]]
-            print(string.format("%s: %s", v[2], FIGURE_PRICES[v[2]]))
         end
         for k, _ in pairs(FIGURE_PRICES) do
-            ADJUSTED_PRICES[k] = cost(k)
+            ADJUSTED_PRICES[k] = adjust_cost(k)
         end
     end
 
     if slot_data["max_price"] then
         MAX_PRICE = slot_data["max_price"]
-        print(string.format("max price: %s", MAX_PRICE))
     end
 
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1

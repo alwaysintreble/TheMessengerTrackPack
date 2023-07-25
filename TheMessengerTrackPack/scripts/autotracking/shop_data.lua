@@ -29,7 +29,7 @@ FIGURINE_DATA = {
     { "QUILLSHROOM", "Quillshroom Figurine" },
     { "JUMPING_QUILLSHROOM", "Jumping Quillshroom Figurine" },
     { "SCURUBU", "Scurubu Figurine" },
-    { "JUMPING_SCURUBU_FIGURINE", "Jumping Scurubu Figurine" },
+    { "JUMPING_SCURUBU", "Jumping Scurubu Figurine" },
     { "WALLAXER", "Wallaxer Figurine" },
     { "BARMATHAZEL", "Barmath'azel Figurine" },
     { "QUEEN_OF_QUILLS", "Queen of Quills Figurine" },
