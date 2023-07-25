@@ -31,7 +31,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 1,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/Icon_PowerSeal_Collected_16.png"
@@ -89,7 +89,7 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 1,
+    "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/MegaTimeshard_Shattered_16.png"

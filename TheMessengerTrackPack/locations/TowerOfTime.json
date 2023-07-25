@@ -35,8 +35,7 @@
         "sections": [
           {
             "ref": "Tower of Time/Tower of Time Seal - Time Waster Seal",
-            "name": "Time Waster Seal",
-            "access_rules": ["grapplou"]
+            "name": "Time Waster Seal"
           }
         ],
         "map_locations": [
@@ -59,6 +58,7 @@
           {
             "map": "tower_map",
             "x": 591,
+            adD   `1Q
             "y": 721
           }
         ]

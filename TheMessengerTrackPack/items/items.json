@@ -135,6 +135,12 @@
     "codes": "fairy_bottle"
   },
   {
+    "name": "Money Wrench",
+    "type": "toggle",
+    "img": "",
+    "codes": "money_wrench"
+  },
+  {
     "name": "Sun Crest",
     "type": "toggle",
     "img": "images/items/Icon_SunCrest.png",
@@ -151,6 +157,7 @@
   {
     "name": "Cloudstep",
     "type": "toggle",
+    "allow_disabled": false,
     "img": "images/items/Icon_CloudStep.png",
     "codes": "cloudstep"
   },
@@ -158,31 +165,31 @@
     "name": "Strike of the Ninja",
     "type": "toggle",
     "img": "images/items/Icon_AttackProjectile.png",
-    "codes": "attack_projectile"
+    "codes": "strike_of_the_ninja"
   },
   {
     "name": "Second wind",
     "type": "toggle",
     "img": "images/items/Icon_AirRecover.png",
-    "codes": "air_recover"
+    "codes": "second_wind"
   },
   {
     "name": "Currents master",
     "type": "toggle",
     "img": "images/items/Icon_SwimDash.png",
-    "codes": "swim_dash"
+    "codes": "currents_master"
   },
   {
     "name": "Aerobatics warrior",
     "type": "toggle",
     "img": "images/items/Icon_GlideAttack.png",
-    "codes": "glide_attack"
+    "codes": "aerobatics_warrior"
   },
   {
     "name": "Demon's bane",
     "type": "toggle",
     "img": "images/items/Icon_PowerAttack.png",
-    "codes": "power_attack"
+    "codes": "demons_bane"
   },
   {
     "name": "Power Seal",

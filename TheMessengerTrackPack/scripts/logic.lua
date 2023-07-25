@@ -21,3 +21,33 @@ function open_store_chest()
     local requiredSeals = Tracker:ProviderCountForCode("required_seals")
     return has("power_seal", requiredSeals)
 end
+
+function cost(location, price)
+    if not price then
+        price = FIGURE_PRICES[location]
+        if not price then
+            return ADJUSTED_PRICES[location]
+        end
+        price = price + cost("Demon's Bane") + cost("Focused Power Sense")
+    elseif PREREQS[location] then
+        print(PREREQS[location])
+        print(type(PREREQS[location]))
+        if type(PREREQS[location]) == "string" then
+            price = price + ADJUSTED_PRICES[PREREQS[location]]
+        else
+            for _, i in ipairs(PREREQS[location]) do
+                print(i)
+                price = price + ADJUSTED_PRICES[i]
+            end
+        end
+    end
+    return price
+end
+
+function can_afford(location)
+    local price = ADJUSTED_PRICES[location]
+    if string.sub(location, 1, 1) == "F" then
+        return SHARDS >= math.min(price, MAX_PRICE) and has("money_wrench")
+    end
+    return SHARDS >= math.min(price, MAX_PRICE)
+end 

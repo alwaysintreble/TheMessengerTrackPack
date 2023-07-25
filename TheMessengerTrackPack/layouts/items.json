@@ -32,6 +32,7 @@
                         "fairy_bottle"
                     ],
                     [
+                        "money_wrench",
                         "sun_crest",
                         "moon_crest"
                     ]
@@ -51,13 +52,13 @@
                 "rows": [
                     [
                         "cloudstep",
-                        "attack_projectile",
-                        "air_recover"
+                        "strike_of_the_ninja",
+                        "second_wind"
                     ],
                     [
-                        "swim_dash",
-                        "glide_attack",
-                        "power_attack"
+                        "currents_master",
+                        "aerobatics_warrior",
+                        "demons_bane"
                     ]
                 ]
             }
