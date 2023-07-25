@@ -1,6 +1,7 @@
 ﻿[
   {
     "name": "Glacial Peak",
+    "access_rules": ["$vertical", "windmill, [hard]", "strike_of_the_ninja, [hard]", "oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_16.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_16.png",
     "item_count": 1,
@@ -15,24 +16,22 @@
     "sections": [
       {
         "name": "Glacial Peak Seal - Ice Climbers",
-        "access_rules": ["grapplou", "[hard]", "challenging", "oob"],
+        "access_rules": ["grapplou", "$vertical, [hard]", "$can_dboost, [hard]","oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Glacial Peak Seal - Projectile Spike Pit",
-        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
+        "access_rules": ["strike_of_the_ninja", "[hard]", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Glacial Peak Seal - Glacial Air Swag",
-        "access_rules": ["$vertical", "windmill, [hard]", "windmill, challenging", "oob"],
         "visibility_rules": ["shuffled_power_seals"],
         "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png"
       },
       {
         "name": "Glacial Peak Mega Shard",
-        "access_rules": ["$vertical", "[oob]"],
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
@@ -51,8 +50,7 @@
         "sections": [
           {
             "ref": "Glacial Peak/Glacial Peak Seal - Ice Climbers",
-            "name": "Ice Climbers",
-            "access_rules": ["grapplou"]
+            "name": "Ice Climbers"
           }
         ],
         "map_locations": [
@@ -68,8 +66,7 @@
         "sections": [
           {
             "ref": "Glacial Peak/Glacial Peak Seal - Projectile Spike Pit",
-            "name": "Projectile Spike Pit",
-            "access_rules": ["wingsuit", "grapplou"]
+            "name": "Projectile Spike Pit"
           }
         ],
         "map_locations": [
@@ -85,8 +82,7 @@
         "sections": [
           {
             "ref": "Glacial Peak/Glacial Peak Seal - Glacial Air Swag",
-            "name": "Glacial Air Swag",
-            "access_rules": ["wingsuit", "grapplou"]
+            "name": "Glacial Air Swag"
           }
         ],
         "map_locations": [

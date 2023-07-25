@@ -22,6 +22,10 @@ function open_store_chest()
     return has("power_seal", requiredSeals)
 end
 
+function can_dboost()
+    return (has("path_of_resilience") or has("meditation")) and has("second_wind")
+end
+
 function cost(location)
     local price = SHOP_PRICES[location]
     if not price then

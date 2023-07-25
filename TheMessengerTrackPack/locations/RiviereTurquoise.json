@@ -14,23 +14,25 @@
     ],
     "sections": [
       {
-        "name": "Fairy Bottle",
-        "access_rules": ["$vertical", "[challenging]", "oob"],
+        "name": "Butterfly Matriarch",
+        "access_rules": ["grapplou", "wingsuit, strike_of_the_ninja", "[hard]", "oob"],
         "chest_unopened_img": "images/items/Icon_MagicFirefly.png",
         "chest_opened_img": "images/items/Icon_MagicFireflyBW.png"
       },
       {
         "name": "Riviere Turquoise Seal - Bounces and Balls",
-        "visibility_rules": ["shuffled_power_seals"]
+        "visibility_rules": ["shuffled_power_seals"],
+        "access_rules": ["$can_dboost", "[oob]"]
       },
       {
         "name": "Riviere Turquoise Seal - Launch of Faith",
-        "visibility_rules": ["shuffled_power_seals"]
+        "visibility_rules": ["shuffled_power_seals"],
+        "access_rules": ["$can_dboost, wingsuit", "$can_dboost, [hard]", "grapplou", "oob"]
       },
       {
         "name": "Riviere Turquoise Seal - Flower Power",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["$vertical", "[challenging]", "oob"]
+        "access_rules": ["$vertical", "[hard]", "oob"]
       },
       {
         "name": "Waterfall Mega Shard",
@@ -40,14 +42,14 @@
       },
       {
         "name": "Quick Restock Mega Shard 1",
-        "access_rules": ["$vertical", "[oob]"],
+        "access_rules": ["grapplou", "wingsuit, strike_of_the_ninja", "[hard]", "oob"],
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_16.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"
       },
       {
         "name": "Quick Restock Mega Shard 2",
-        "access_rules": ["$vertical", "[oob]"],
+        "access_rules": ["grapplou", "wingsuit, strike_of_the_ninja", "[hard]", "oob"],
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_16.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"

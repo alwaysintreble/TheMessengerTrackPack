@@ -26,13 +26,14 @@
       },
       {
         "name": "Power Thistle",
-        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
+        "access_rules": ["$vertical", "strike_of_the_ninja, [hard]", "windmill, [hard]", "oob"],
         "chest_unopened_img": "images/items/Icon_PowerThistle.png",
         "chest_opened_img": "images/items/Icon_PowerThistleBW.png"
       },
       {
         "name": "Key of Strength",
-        "access_rules": ["power_thistle, $vertical", "power_thistle, [hard]", "power_thistle, challenging", "power_thistle, oob", "$vertical, [hard]", "$vertical, challenging", "$vertical, oob"],
+        "access_rules": ["power_thistle, $vertical", "power_thistle, strike_of_the_ninja, [hard]", "grapplou, [hard]",
+          "windmill, [hard]", "wingsuit, oob"],
         "chest_unopened_img": "images/items/Note_Strength.png",
         "chest_opened_img": "images/items/Note_StrengthBW.png"
       },
@@ -44,24 +45,24 @@
       },
       {
         "name": "Searing Crags Seal - Triple Ball Spinner",
-        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
+        "access_rules": ["$vertical", "[hard]", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Searing Crags Seal - Raining Rocks",
-        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
+        "access_rules": ["$vertical", "strike_of_the_ninja, [hard]", "windmill, [hard]", "oob"],
         "visibility_rules": ["shuffled_power_seals"],
         "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png"
       },
       {
         "name": "Searing Crags Seal - Rhythm Rocks",
-        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
+        "access_rules": ["$vertical", "strike_of_the_ninja, [hard]", "windmill, [hard]", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Searing Crags Mega Shard",
-        "access_rules": ["$vertical", "[hard]", "challenging", "oob"],
+        "access_rules": ["$vertical", "strike_of_the_ninja, [hard]", "windmill, [hard]", "oob"],
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_16.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_16.png"

@@ -12,14 +12,14 @@
       },
       {
         "name": "Howling Grotto Seal - Windy Saws and Balls",
-        "access_rules": ["wingsuit", "[hard]", "challenging", "oob"],
+        "access_rules": ["wingsuit", "[hard]", "oob"],
         "visibility_rules": ["shuffled_power_seals"],
         "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png"
       },
       {
         "name": "Howling Grotto Seal - Crushing Pits",
-        "access_rules": ["wingsuit, grapplou", "[challenging]", "oob"],
+        "access_rules": ["wingsuit, grapplou", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {

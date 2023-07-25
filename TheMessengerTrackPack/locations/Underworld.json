@@ -21,7 +21,7 @@
       },
       {
         "name": "Underworld Seal - Sharp and Windy Climb",
-        "access_rules": ["wingsuit", "[challenging]", "oob"],
+        "access_rules": ["wingsuit", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
@@ -30,7 +30,7 @@
       },
       {
         "name": "Underworld Seal - Fireball Wave",
-        "access_rules": ["wingsuit", "windmill, [hard]", "windmill, challenging", "windmill, oob"],
+        "access_rules": ["wingsuit, aerobatics_warrior", "windmill, [hard]", "windmill, oob", "wingsuit, [oob]"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {

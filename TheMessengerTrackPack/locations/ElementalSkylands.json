@@ -1,9 +1,8 @@
 ﻿[
   {
     "name": "Elemental Skylands",
-    "access_rules": ["fairy_bottle, $vertical", "grapplou, [hard]", "windmill, [hard]", "fairy_bottle, [hard]",
-      "$vertical, challenge", "fairy_bottle, challgen", "windmill, challenge", "$vertical, oob", "windmill, oob",
-      "fairy_bottle, oob"],
+    "access_rules": ["fairy_bottle, wingsuit", "grapplou, [hard]", "windmill, [hard]", "fairy_bottle, [hard]",
+      "$vertical, oob", "windmill, oob", "fairy_bottle, oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -20,21 +19,22 @@
         "name": "Key of Symbiosis",
         "chest_unopened_img": "images/items/Note_Symbiosis.png",
         "chest_opened_img": "images/items/Note_SymbiosisBW.png",
-        "access_rules": ["grapplou","windmill, [challenge]", "oob"]
+        "access_rules": ["grapplou", "windmill, [hard]", "oob"]
       },
       {
         "name": "Elemental Skylands Seal - Air",
-        "access_rules": ["wingsuit, fairy_bottle", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Elemental Skylands Seal - Water",
-        "access_rules": ["grapplou, fairy_bottle", "oob"],
+        "access_rules": ["grapplou, currents_master", "grapplou, [hard]", "windmill, [hard]", "$can_dboost, [hard]",
+          "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
         "name": "Elemental Skylands Seal - Fire",
-        "access_rules": ["grapplou, fairy_bottle", "oob"],
+        "access_rules": ["fairy_bottle, wingsuit", "grapplou, strike_of_the_ninja, [hard]",
+          "windmill, strike_of_the_ninja, [hard]", "$can_dboost, strike_of_the_ninja, [hard]", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
