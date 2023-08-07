@@ -209,8 +209,8 @@ function onLocation(location_id, location_name)
     local detObj = Tracker:FindObjectForCode(d[1])
     if obj then
         if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = obj.AvailableChestCount - 1
-            detObj.AvailableChestCount = detObj.AvailableChestCount - 1
+            obj.AvailableChestCount = 0
+            detObj.AvailableChestCount = 0
         else
             obj.Active = true
             detObj.Active = true
