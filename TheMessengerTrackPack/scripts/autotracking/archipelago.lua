@@ -119,7 +119,7 @@ function onClear(slot_data)
         MAX_PRICE = slot_data["max_price"]
     end
     
-    --adjust_display_costs()
+    adjust_display_costs()
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
     Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":CurrentRegion"})
 
@@ -219,7 +219,7 @@ function onLocation(location_id, location_name)
 end
 
 function onChangedRegion(key, current_region, old_region)
-    if Tracker:FindObjectForCode("auto_tab").Active then
+    if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
         if TABS_MAPPING[current_region] then
             CURRENT_ROOM = TABS_MAPPING[current_region]
         else

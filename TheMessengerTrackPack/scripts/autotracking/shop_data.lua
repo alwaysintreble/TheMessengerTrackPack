@@ -93,19 +93,18 @@ MAX_FIGURINE_PRICES = {
 
 function adjust_display_costs()
     local obj
-    for k, v in pairs(SHOP_PRICES) do
-        obj = Tracker:FindObjectForCode(string.format("@The Shop/%s", k))
-        if not obj then
-            obj = Tracker:FindObjectForCode(string.format("@Figurines/%s", k))
-        end
-        if obj and not obj == v then
-            obj.ChestCount = obj.ChestCount - (obj.ChestCount - v)
+    for _, v in pairs(SHOP_PRICES) do
+        print(v[1])
+        print(v[2])
+        obj = Tracker:FindObjectForCode(string.format("@The Shop/%s", v[1]))
+        if obj then
+            obj.AvailableChestCount = v[2]
         end
     end
     for k, v in pairs(FIGURE_PRICES) do
         obj = Tracker:FindObjectForCode(string.format("@Figurines/%s", k))
-        if obj and not obj == v then
-            obj.ChestCount = obj.ChestCount - (obj.ChestCount - v)
+        if obj then
+            obj.AvailableChestCount = v
         end
     end
 end

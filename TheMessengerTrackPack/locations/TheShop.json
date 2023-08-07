@@ -7,8 +7,7 @@
         "sections": [
           {
             "name": "Karuta Plates",
-            "access_rules": ["$can_afford|Karuta Plates"],
-            "item_count": 200
+            "access_rules": ["$can_afford|Karuta Plates"]
           },
           {
             "name": "Serendipitous Bodies",
@@ -102,8 +101,7 @@
           },
           {
             "name": "Money Wrench",
-            "access_rules": ["$can_afford|Demon's Bane, $can_afford|Focused Power Sense"],
-            "item_count": 200
+            "access_rules": ["$can_afford|Demon's Bane, $can_afford|Focused Power Sense"]
           }
         ]
       }
