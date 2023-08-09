@@ -1,4 +1,4 @@
-﻿SHOP_DATA = {
+SHOP_DATA = {
     { "HP_UPGRADE_1", "Karuta Plates" },
     { "ENEMY_DROP_HP", "Serendipitous Bodies" },
     { "DAMAGE_REDUCTION", "Path of Resilience" },
