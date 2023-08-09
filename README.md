@@ -1,4 +1,4 @@
-﻿# The Messenger Randomizer Track Pack
+# The Messenger Randomizer Track Pack
 
 ## Quick Links
 - [Archipelago](https://archipelago.gg/)
