@@ -1,5 +1,34 @@
-﻿{
+{
   "versions": [
+    {
+      "package_version": "1.4.2",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.2/TheMessengerTrackPack.zip",
+      "sha256": "fd4c92ac40165dd948a153f46e8e96f0f8c03b8e785017d258127fe6b1a5db84",
+      "changelog": [
+        "Removes BOMs from all the files that were added unintentionally",
+        "Requires poptracker v0.25.3"
+      ]
+    },
+    {
+      "package_version": "1.4.1",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.1/TheMessengerTrackPack.zip",
+      "sha256": "1c3032182fb8d9b84d75f69fca3b94724a3ba3088f3908b95269389dd41ab31f",
+      "changelog": [
+        "Fix auto tracking of shop locations and items",
+        "Fix auto tab switching",
+        "Fix display of shop prices"
+      ]
+    },
+    {
+      "package_version": "1.4.0",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.0/TheMessengerTrackPack.zip",
+      "sha256": "2c969e077efa8682fea46c1c9593c30e4be44de54e054099eda1800c4eb3fc69",
+      "changelog": [
+        "Add support for shop rando",
+        "Fix cycling bug for tab switching and mega shard settings",
+        "Increase the resolution of the overworld map"
+      ]
+    },
     {
       "package_version": "1.3.2",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.3.2/TheMessengerTrackPack.zip",
