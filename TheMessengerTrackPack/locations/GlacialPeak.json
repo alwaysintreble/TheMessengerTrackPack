@@ -27,12 +27,14 @@
       {
         "name": "Glacial Peak Seal - Glacial Air Swag",
         "visibility_rules": ["shuffled_power_seals"],
+        "access_rules": ["$vertical", "windmill, [hard]"],
         "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
         "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png"
       },
       {
         "name": "Glacial Peak Mega Shard",
         "visibility_rules": ["shuffled_shards"],
+        "access_rules": ["$vertical", "windmill, [hard]"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       }
