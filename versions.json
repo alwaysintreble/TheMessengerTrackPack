@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.4.3",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.3/TheMessengerTrackPack.zip",
+      "sha256": "3c7ca14009511d81fd527b80b98070ea980d080ec61c0aa7a4af9892c366f241",
+      "changelog": [
+        "Fixes logic bug for mega shard at Forlorn Temple entrance and seal and shard at the top of Glacial Peak in hard logic"
+      ]
+    },
+    {
       "package_version": "1.4.2",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.2/TheMessengerTrackPack.zip",
       "sha256": "fd4c92ac40165dd948a153f46e8e96f0f8c03b8e785017d258127fe6b1a5db84",
