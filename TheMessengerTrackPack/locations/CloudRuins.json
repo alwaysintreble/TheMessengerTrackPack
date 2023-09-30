@@ -18,27 +18,27 @@
         "name": "Acro",
         "chest_unopened_img": "images/items/Icon_PhobekinAcro.png",
         "chest_opened_img": "images/items/Icon_PhobekinAcroBW.png",
-        "access_rules": ["wingsuit", "grapplou, $can_dboost", "oob"]
+        "access_rules": ["wingsuit, grapplou", "wingsuit, $can_dboost", "oob"]
       },
       {
         "name": "Cloud Ruins Seal - Ghost Pit",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["grapplou, wingsuit", "grapplou, $can_dboost", "wingsuit, [hard]", "oob"]
+        "access_rules": ["grapplou, wingsuit", "wingsuit, $can_dboost, [hard]", "oob"]
       },
       {
         "name": "Cloud Ruins Seal - Toothbrush Alley",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["wingsuit", "grapplou, $can_dboost", "oob"]
+        "access_rules": ["wingsuit, grapplou", "wingsuit, $can_dboost", "oob"]
       },
       {
         "name": "Cloud Ruins Seal - Saw Pit",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["wingsuit", "grapplou, $can_dboost", "oob"]
+        "access_rules": ["wingsuit, grapplou", "wingsuit, $can_dboost", "oob"]
       },
       {
         "name": "Cloud Ruins Seal - Money Farm Room",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["wingsuit", "grapplou, $can_dboost", "oob"]
+        "access_rules": ["wingsuit, grapplou", "wingsuit, $can_dboost", "oob"]
       },
       {
         "name": "Cloud Entrance Mega Shard",
@@ -57,14 +57,14 @@
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
-        "access_rules": ["wingsuit", "grapplou, $can_dboost", "oob"]
+        "access_rules": ["wingsuit, grapplou", "wingsuit, $can_dboost", "oob"]
       },
       {
         "name": "Money Farm Room Mega Shard 2",
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png",
-        "access_rules": ["wingsuit", "grapplou, $can_dboost", "oob"]
+        "access_rules": ["wingsuit, grapplou", "wingsuit, $can_dboost", "oob"]
       }
     ]
   },
