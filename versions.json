@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.4.4",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.4/TheMessengerTrackPack.zip",
+      "sha256": "f9d2d31b2a942f10c85faaea60f647e62df541e03c4455df59937728f2be3938",
+      "changelog": [
+        "Fixes rules for cloud ruins locations in hard logic"
+      ]
+    },
+    {
       "package_version": "1.4.3",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.3/TheMessengerTrackPack.zip",
       "sha256": "3c7ca14009511d81fd527b80b98070ea980d080ec61c0aa7a4af9892c366f241",
