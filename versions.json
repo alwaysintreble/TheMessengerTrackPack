@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "1.4.5",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.5/TheMessengerTrackPack.zip",
+      "sha256": "a77fc54cc437866f1ade78230def333887f5ba101b4aa015f0184e1ab2447961",
+      "changelog": [
+        "Fix missing wingsuit requirement on Claustro",
+        "Fix missing rope dart requirement on Music Box"
+      ]
+    },
+    {
       "package_version": "1.4.4",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.4/TheMessengerTrackPack.zip",
       "sha256": "f9d2d31b2a942f10c85faaea60f647e62df541e03c4455df59937728f2be3938",
