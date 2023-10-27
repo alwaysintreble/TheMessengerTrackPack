@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "1.4.6",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.6/TheMessengerTrackPack.zip",
+      "sha256": "b9a3071820f010720b43e912154188f5a6390df2b4f88055640c96d9d6d5e96b",
+      "changelog": [
+        "Fix missing rules in Riviere, Skylands",
+        "Fix bad lua code in shop logic causing incorrect money wrench checking"
+      ]
+    },
+    {
       "package_version": "1.4.5",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.5/TheMessengerTrackPack.zip",
       "sha256": "a77fc54cc437866f1ade78230def333887f5ba101b4aa015f0184e1ab2447961",
