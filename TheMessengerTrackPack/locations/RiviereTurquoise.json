@@ -32,7 +32,7 @@
       {
         "name": "Riviere Turquoise Seal - Flower Power",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["$vertical", "[hard]", "oob"]
+        "access_rules": ["grapplou", "wingsuit, strike_of_the_ninja", "[hard]", "oob"]
       },
       {
         "name": "Waterfall Mega Shard",
