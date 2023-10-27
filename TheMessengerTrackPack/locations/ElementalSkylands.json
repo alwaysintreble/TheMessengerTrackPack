@@ -19,7 +19,7 @@
         "name": "Key of Symbiosis",
         "chest_unopened_img": "images/items/Note_Symbiosis.png",
         "chest_opened_img": "images/items/Note_SymbiosisBW.png",
-        "access_rules": ["grapplou", "windmill, [hard]", "oob"]
+        "access_rules": ["grapplou", "windmill, [hard]", "$can_dboost, [hard]", "oob"]
       },
       {
         "name": "Elemental Skylands Seal - Air",
@@ -39,12 +39,14 @@
       },
       {
         "name": "Earth Mega Shard",
+        "access_rules": ["grapplou", "windmill, [hard]", "$can_dboost, [hard]", "oob"],
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
       },
       {
         "name": "Water Mega Shard",
+        "access_rules": ["grapplou", "windmill, [hard]", "$can_dboost, [hard]", "oob"],
         "visibility_rules": ["shuffled_shards"],
         "chest_unopened_img": "images/items/MegaTimeshard_8.png",
         "chest_opened_img": "images/items/MegaTimeshard_Shattered_8.png"
