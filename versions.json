@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "1.4.7",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.7/TheMessengerTrackPack.zip",
+      "sha256": "0b23bab21e89f5e11ee41dabea44107b516416cb069414563cc9d493f3b84ce5",
+      "changelog": [
+        "Fix incorrect rules for Autumn Hills Spike Ball Darts",
+        "Fix incorrect rules for Elemental Skylands - Air Seal"
+      ]
+    },
+    {
       "package_version": "1.4.6",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.6/TheMessengerTrackPack.zip",
       "sha256": "b9a3071820f010720b43e912154188f5a6390df2b4f88055640c96d9d6d5e96b",
