@@ -23,6 +23,7 @@
       },
       {
         "name": "Elemental Skylands Seal - Air",
+        "access_rules": ["wingsuit", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {

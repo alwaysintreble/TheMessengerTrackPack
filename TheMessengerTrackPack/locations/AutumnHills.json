@@ -44,7 +44,7 @@
       {
         "name": "Autumn Hills Seal - Spike Ball Darts",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["wingsuit, aerobatics_warrior", "grapplou, windmill, [hard]", "wingsuit, [hard]",
+        "access_rules": ["wingsuit, aerobatics_warrior", "grapplou, [hard]", "windmill, [hard]",
           "$vertical, oob"]
       },
       {
