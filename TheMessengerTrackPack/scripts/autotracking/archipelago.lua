@@ -70,6 +70,7 @@ function onClear(slot_data)
         print(string.format("required seals: %s", slot_data["required_seals"]))
     end
 
+    -- TODO remove after Archipelago v0.4.5
     if slot_data["goal"] then
         if slot_data["goal"] == "open_music_box" then
             Tracker:FindObjectForCode("goal").CurrentStage = 0
@@ -77,28 +78,23 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("goal").CurrentStage = 1
             Tracker:FindObjectForCode("required_seals").AcquiredCount = tonumber(slot_data["required_seals"])
         end
+        if slot_data["logic"] then
+            if slot_data["logic"] == "normal" then
+                Tracker:FindObjectForCode("logic").CurrentStage = 0
+            elseif slot_data["logic"] == "hard" then
+                Tracker:FindObjectForCode("logic").CurrentStage = 1
+            elseif slot_data["logic"] == "oob" then
+                Tracker:FindObjectForCode("logic").CurrentStage = 2
+            end
+        end
+    elseif slot_data["logic_level"] then
+        Tracker:FindObjectForCode("logic").CurrentStage = slot_data["logic_level"]
+        if slot_data["required_seals"] and not slot_data["required_seals"] == 0 then
+            Tracker:FindObjectForCode("goal").CurrentStage = 1
+            Tracker:FindObjectForCode("required_seals").AcquiredCount = tonumber(slot_data["required_seals"])
+        end
     end
 
-    if slot_data["settings"] then
-        if slot_data["settings"]["Difficulty"] == "Basic" then
-            Tracker:FindObjectForCode("shuffled_power_seals").CurrentStage = 0
-        end
-        if slot_data["settings"]["Mega Shards"] then
-            Tracker:FindObjectForCode("shuffled_shards").CurrentStage = slot_data["settings"]["Mega Shards"]
-        end
-    elseif slot_data["mega_shards"] then
-        Tracker:FindObjectForCode("shuffled_shards").CurrentStage = slot_data["mega_shards"]
-    end
-
-    if slot_data["logic"] then
-        if slot_data["logic"] == "normal" then
-            Tracker:FindObjectForCode("logic").CurrentStage = 0
-        elseif slot_data["logic"] == "hard" then
-            Tracker:FindObjectForCode("logic").CurrentStage = 1
-        elseif slot_data["logic"] == "oob" then
-            Tracker:FindObjectForCode("logic").CurrentStage = 2
-        end
-    end
 
     if slot_data["shop"] then
         for k, v in ipairs(SHOP_DATA) do
@@ -114,7 +110,6 @@ function onClear(slot_data)
             ADJUSTED_PRICES[k] = adjust_cost(k)
         end
     end
-    
     if slot_data["max_price"] then
         MAX_PRICE = slot_data["max_price"]
     end
@@ -123,23 +118,32 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
     Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":CurrentRegion"})
 
-    Tracker:FindObjectForCode("shuffled_power_seals").CurrentStage = shuffled_seals()
+    Tracker:FindObjectForCode("shuffled_power_seals").CurrentStage,
+    Tracker:FindObjectForCode("shuffled_shards").CurrentStage = get_shuffled_locs()
 end
 
-function shuffled_seals()
+function get_shuffled_locs()
     -- First Power Seal in the datapackage
-    local loc = 11391000
+    local first_seal_loc = 11391000
+    -- First Mega Shard in the datapackage
+    local first_shard_loc = 11391045
+    local seals_enabled = 0
+    local shards_enabled = 0
     for _, i in ipairs(Archipelago.CheckedLocations) do
-        if loc == i then
-            return 1
+        if first_seal_loc == i then
+            seals_enabled = 1
+        elseif first_shard_loc == i then
+            shards_enabled = 1
         end
     end
     for _, i in ipairs(Archipelago.MissingLocations) do
-        if loc == i then
-            return 1
+        if first_seal_loc == i then
+            seals_enabled = 1
+        elseif first_shard_loc == i then
+            shards_enabled = 1
         end
     end
-    return 0
+    return seals_enabled, shards_enabled
 end
 
 function onItem(index, item_id, item_name, player_number)
