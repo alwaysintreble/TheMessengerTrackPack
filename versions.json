@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "1.4.8",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.8/TheMessengerTrackPack.zip",
+      "sha256": "75a46c69b56c4b957743afe7788cb50d1d9303444bd535ca2003f6bd371c6ded",
+      "changelog": [
+        "Fix missing images for mega shard checks/option and auto tab switching option",
+        "Fix incorrect lookup name for Butterfly Matriarch",
+        "Use newer slot data information and rewrite it to be cleaner"
+      ]
+    },
+    {
       "package_version": "1.4.7",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.7/TheMessengerTrackPack.zip",
       "sha256": "0749662b995978a60851957a89c4200cab27b3f200c7e2886f5615e89c509504",
