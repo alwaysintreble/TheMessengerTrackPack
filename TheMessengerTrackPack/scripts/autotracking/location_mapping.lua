@@ -16,7 +16,7 @@ LOCATIONS = {
     { "@Searing Crags/Power Thistle" },
     { "@Forlorn Temple/Demon King Crown" },
     { "@Catacombs/Ruxxtin's Amulet" },
-    { "@Riviere Turquoise/Fairy Bottle" },
+    { "@Riviere Turquoise/Butterfly Matriarch" },
     { "@Sunken Shrine/Sun Crest" },
     { "@Sunken Shrine/Moon Crest" },
     { "@Catacombs/Necro" },
