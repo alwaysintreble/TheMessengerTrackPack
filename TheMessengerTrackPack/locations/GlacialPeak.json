@@ -16,7 +16,7 @@
     "sections": [
       {
         "name": "Glacial Peak Seal - Ice Climbers",
-        "access_rules": ["grapplou", "$vertical, [hard]", "$can_dboost, [hard]","oob"],
+        "access_rules": ["grapplou", "$vertical, [hard]", "$can_dboost, [hard]", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
