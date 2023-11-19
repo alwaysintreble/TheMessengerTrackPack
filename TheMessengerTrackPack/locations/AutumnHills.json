@@ -1,7 +1,7 @@
 [
   {
     "name": "Autumn Hills",
-    "access_rules": ["wingsuit, normal", "$vertical, [hard]", "oob"],
+    "access_rules": ["wingsuit", "$vertical, [hard]", "oob"],
     "chest_unopened_img": "images/items/Icon_PowerSeal_8.png",
     "chest_opened_img": "images/items/Icon_PowerSeal_Collected_8.png",
     "item_count": 1,
@@ -44,7 +44,7 @@
       {
         "name": "Autumn Hills Seal - Spike Ball Darts",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["wingsuit, aerobatics_warrior", "grapplou, [hard]", "windmill, [hard]",
+        "access_rules": ["aerobatics_warrior", "grapplou, [hard]", "windmill, [hard]",
           "$vertical, oob"]
       },
       {

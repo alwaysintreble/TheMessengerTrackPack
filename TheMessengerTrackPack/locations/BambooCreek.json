@@ -10,7 +10,7 @@
         "name": "Claustro",
         "chest_unopened_img": "images/items/Icon_PhobekinClaustro.png",
         "chest_opened_img": "images/items/Icon_PhobekinClaustroBW.png",
-        "access_rules": ["wingsuit, grapplou", "wingsuit, $can_dboost", "wingsuit, [hard]", "wingsuit, oob"]
+        "access_rules": ["grapplou", "$can_dboost", "wingsuit, [hard]", "wingsuit, oob"]
       },
       {
         "name": "Bamboo Creek Seal - Spike Crushers and Doors",
