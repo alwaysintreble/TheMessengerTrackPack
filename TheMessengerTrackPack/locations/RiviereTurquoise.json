@@ -27,7 +27,7 @@
       {
         "name": "Riviere Turquoise Seal - Launch of Faith",
         "visibility_rules": ["shuffled_power_seals"],
-        "access_rules": ["$can_dboost, wingsuit", "$can_dboost, [hard]", "grapplou", "oob"]
+        "access_rules": ["$can_dboost, wingsuit, strike_of_the_ninja", "$can_dboost, [hard]", "grapplou", "oob"]
       },
       {
         "name": "Riviere Turquoise Seal - Flower Power",
