@@ -34,8 +34,8 @@
       },
       {
         "name": "Elemental Skylands Seal - Fire",
-        "access_rules": ["fairy_bottle, wingsuit", "grapplou, strike_of_the_ninja, [hard]",
-          "windmill, strike_of_the_ninja, [hard]", "$can_dboost, strike_of_the_ninja, [hard]", "oob"],
+        "access_rules": ["grapplou, strike_of_the_ninja", "windmill, strike_of_the_ninja, [hard]",
+          "$can_dboost, strike_of_the_ninja, [hard]", "oob"],
         "visibility_rules": ["shuffled_power_seals"]
       },
       {
