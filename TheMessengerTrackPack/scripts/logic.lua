@@ -55,8 +55,5 @@ end
 
 function can_afford(location)
     local price = ADJUSTED_PRICES[location]
-    if string.match(location, "Figurine") == "Figurine" then
-        return SHARDS >= math.min(price, MAX_PRICE) and has("money_wrench")
-    end
     return SHARDS >= math.min(price, MAX_PRICE)
 end 

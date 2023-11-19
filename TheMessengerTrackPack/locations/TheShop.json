@@ -450,6 +450,7 @@
   },
   {
     "name": "Figurines",
+    "access_rules": ["money_wrench"],
     "map_locations": [
       {
         "map": "messenger_map",
