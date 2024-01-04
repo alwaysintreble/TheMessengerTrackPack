@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "1.4.10",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.10/TheMessengerTrackPack.zip",
+      "sha256": "7e9ff6eba581b6ec4901bd7e7df7c9b20e94b4962bd3615a26613b4f13464109",
+      "changelog": [
+        "Fix more missing icons",
+        "Update logic change for key of strength"
+      ]
+    },
+    {
       "package_version": "1.4.9",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.9/TheMessengerTrackPack.zip",
       "sha256": "dd0d7e7d20d34d4091161c02d69623de63b28e8d3759d93c374d4d288d89e564",
