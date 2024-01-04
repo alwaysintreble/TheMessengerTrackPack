@@ -32,8 +32,8 @@
       },
       {
         "name": "Key of Strength",
-        "access_rules": ["power_thistle, $vertical", "power_thistle, strike_of_the_ninja, [hard]", "grapplou, [hard]",
-          "windmill, [hard]", "wingsuit, oob"],
+        "access_rules": ["power_thistle, grapplou", "power_thistle, wingsuit, strike_of_the_ninja",
+          "power_thistle, strike_of_the_ninja, [hard]", "grapplou, [hard]", "windmill, [hard]", "wingsuit, oob"],
         "chest_unopened_img": "images/items/Note_Strength.png",
         "chest_opened_img": "images/items/Note_StrengthBW.png"
       },
