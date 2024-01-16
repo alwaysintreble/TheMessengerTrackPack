@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "1.4.11",
+      "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.11/TheMessengerTrackPack.zip",
+      "sha256": "d8a3397016018080f690edca1b7b5d54b9556ddf3d94fd7a219739937ab6248c",
+      "changelog": [
+        "Claustro should always require wingsuit",
+        "Fix Butterfly Matriarch location missing from the Riviere Turquoise map"
+      ]
+    },
+    {
       "package_version": "1.4.10",
       "download_url": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/download/1.4.10/TheMessengerTrackPack.zip",
       "sha256": "7e9ff6eba581b6ec4901bd7e7df7c9b20e94b4962bd3615a26613b4f13464109",
